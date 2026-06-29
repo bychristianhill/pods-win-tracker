@@ -16,7 +16,7 @@
   // Pod logos (keyed by exact pod name from the data). Pods without an entry
   // fall back to a monogram. Add new pods here as their logos arrive.
   const POD_LOGOS = {
-    "POD UNYIELDING":    "assets/pods/unyielding.png",
+    "UNYIELDING":    "assets/pods/unyielding.png",
     "ALL GAS NO BREAKS": "assets/pods/all-gas-no-brakes.png",
     "CORE":              "assets/pods/core.jpg",
     "HELIOS":            "assets/pods/helios.png",
