@@ -305,7 +305,7 @@
         </div>
 
         <button class="rep-toggle" aria-expanded="${autoOpen}">
-          <span class="chev">▸</span> Rep totals (season to date)
+          <span class="chev">▸</span> Rep totals (quarter to date)
         </button>
         ${repTable(p, d, autoOpen === "false")}
       </article>`;
