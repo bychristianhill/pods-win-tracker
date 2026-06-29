@@ -24,6 +24,8 @@
     "KILOWATT KARTEL":   "assets/pods/kilowatt-kartel.png",
     "ASCEND":            "assets/pods/ascend.png",
     "ENLIGHTEN":         "assets/pods/enlighten.jpg",
+     "CP TEAM": "assets/pods/cp-team.png",
+     "WACO":  "assets/pods/waco.jpg",
   };
   // Normalize pod names so logo lookup tolerates case/spacing differences from the sheet.
   const normName = (s) => String(s).toUpperCase().replace(/\s+/g, " ").trim();
