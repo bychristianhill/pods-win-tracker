@@ -16,7 +16,7 @@
   // Pod logos (keyed by exact pod name from the data). Pods without an entry
   // fall back to a monogram. Add new pods here as their logos arrive.
   const POD_LOGOS = {
-    "UNYIELDING":    "assets/pods/unyielding.png",
+    "UNYIELDING":         "assets/pods/unyielding.png",
     "ALL GAS NO BREAKS": "assets/pods/all-gas-no-brakes.png",
     "CORE":              "assets/pods/core.jpg",
     "HELIOS":            "assets/pods/helios.png",
@@ -24,8 +24,8 @@
     "KILOWATT KARTEL":   "assets/pods/kilowatt-kartel.png",
     "ASCEND":            "assets/pods/ascend.png",
     "ENLIGHTEN":         "assets/pods/enlighten.jpg",
-     "CP TEAM": "assets/pods/cp-team.png",
-     "WACO":  "assets/pods/waco.jpg",
+    "CP TEAM":           "assets/pods/cp-team.png",   // BLACKOUT design
+    "WACO":              "assets/pods/waco.jpg",      // ELITE design
   };
   // Normalize pod names so logo lookup tolerates case/spacing differences from the sheet.
   const normName = (s) => String(s).toUpperCase().replace(/\s+/g, " ").trim();
@@ -326,15 +326,10 @@
       return `<tr class="${hl}">
         <td class="name">${esc(r.name)}</td>
         <td class="sra ${sra >= 1 ? "pos" : "zero"}">${sra}</td>
-        <td>${num(r.selfGenCAP)}</td>
-        <td>${num(r.asAssistSRA)}</td>
-        <td class="pts">${round(num(r.totalPoints))}</td>
       </tr>`;
     }).join("");
     return `<table class="rep-table"${hidden ? " hidden" : ""}>
-      <thead><tr>
-        <th>Rep</th><th>Total SRA</th><th>CAP</th><th>Assists</th><th>Pts</th>
-      </tr></thead>
+      <thead><tr><th>Rep</th><th>SRA</th></tr></thead>
       <tbody>${rows}</tbody>
     </table>`;
   }
