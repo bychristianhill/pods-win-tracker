@@ -1,0 +1,966 @@
+{
+  "generatedAt": "2026-06-29T09:30:00-05:00",
+  "timezone": "America/Chicago",
+  "metricLabel": "SRA",
+  "week1Monday": "2026-06-15",
+  "currentWeekNo": 3,
+  "demo": true,
+  "weeks": [
+    {
+      "weekNo": 1,
+      "label": "Week 1",
+      "start": "2026-06-15",
+      "end": "2026-06-21"
+    },
+    {
+      "weekNo": 2,
+      "label": "Week 2",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "weekNo": 3,
+      "label": "Week 3",
+      "start": "2026-06-29",
+      "end": "2026-07-05"
+    }
+  ],
+  "pods": [
+    {
+      "name": "POD UNYIELDING",
+      "target": 5,
+      "weekly": {
+        "1": 7,
+        "2": 11,
+        "3": 14
+      },
+      "seasonTotal": 32,
+      "reps": [
+        {
+          "name": "Marcos Cano Fernandez",
+          "id": null,
+          "selfGenSRA": 4,
+          "selfGenCAP": 2,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 4,
+          "totalPoints": 4
+        },
+        {
+          "name": "Jonathan Bell",
+          "id": null,
+          "selfGenSRA": 2,
+          "selfGenCAP": 2,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 2,
+          "asAssistCAP": 0,
+          "totalSRA": 4,
+          "totalPoints": 4
+        },
+        {
+          "name": "Alan Frazier",
+          "id": null,
+          "selfGenSRA": 3,
+          "selfGenCAP": 4,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 3,
+          "totalPoints": 3
+        },
+        {
+          "name": "Felton Byrd",
+          "id": null,
+          "selfGenSRA": 2,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 2,
+          "totalPoints": 2
+        },
+        {
+          "name": "Gran Crum",
+          "id": null,
+          "selfGenSRA": 1,
+          "selfGenCAP": 2,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 1,
+          "totalPoints": 1
+        },
+        {
+          "name": "Nebiat Tesfay",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        }
+      ]
+    },
+    {
+      "name": "ALL GAS NO BREAKS",
+      "target": 8,
+      "weekly": {
+        "1": 16,
+        "2": 26,
+        "3": 32
+      },
+      "seasonTotal": 74,
+      "reps": [
+        {
+          "name": "Tyler Lange",
+          "id": null,
+          "selfGenSRA": 6,
+          "selfGenCAP": 6,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 5,
+          "asAssistCAP": 0,
+          "totalSRA": 11,
+          "totalPoints": 11
+        },
+        {
+          "name": "Carson Torre",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 1,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 8,
+          "asAssistCAP": 0,
+          "totalSRA": 8,
+          "totalPoints": 8
+        },
+        {
+          "name": "Jonah Sullivan",
+          "id": null,
+          "selfGenSRA": 4,
+          "selfGenCAP": 5,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 3,
+          "asAssistCAP": 0,
+          "totalSRA": 7,
+          "totalPoints": 7
+        },
+        {
+          "name": "Carter Glass",
+          "id": null,
+          "selfGenSRA": 3,
+          "selfGenCAP": 3,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 3,
+          "totalPoints": 3
+        },
+        {
+          "name": "David Streeter",
+          "id": null,
+          "selfGenSRA": 3,
+          "selfGenCAP": 2,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 3,
+          "totalPoints": 3
+        },
+        {
+          "name": "Abhi Cheruvu",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 2,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Alex Hepworth",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 1,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Logan Parker",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        }
+      ]
+    },
+    {
+      "name": "CORE",
+      "target": 7,
+      "weekly": {
+        "1": 6,
+        "2": 10,
+        "3": 13
+      },
+      "seasonTotal": 29,
+      "reps": [
+        {
+          "name": "Justin Kerby",
+          "id": null,
+          "selfGenSRA": 6,
+          "selfGenCAP": 3,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 6,
+          "totalPoints": 6
+        },
+        {
+          "name": "Joshua Allen",
+          "id": null,
+          "selfGenSRA": 4,
+          "selfGenCAP": 5,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 4,
+          "totalPoints": 4
+        },
+        {
+          "name": "Ruben Briones",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 2,
+          "asAssistCAP": 0,
+          "totalSRA": 2,
+          "totalPoints": 2
+        },
+        {
+          "name": "Collin Carter",
+          "id": null,
+          "selfGenSRA": 1,
+          "selfGenCAP": 1,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 1,
+          "totalPoints": 1
+        },
+        {
+          "name": "Katie Boyd",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 1,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Jay Baumann",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Simone Paryente",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        }
+      ]
+    },
+    {
+      "name": "MARKET LEADERS",
+      "target": 8,
+      "weekly": {
+        "1": 10,
+        "2": 16,
+        "3": 20
+      },
+      "seasonTotal": 46,
+      "reps": [
+        {
+          "name": "Keaton Mott",
+          "id": null,
+          "selfGenSRA": 8,
+          "selfGenCAP": 4,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 1,
+          "asAssistCAP": 0,
+          "totalSRA": 9,
+          "totalPoints": 9
+        },
+        {
+          "name": "Chris Wootton",
+          "id": null,
+          "selfGenSRA": 7,
+          "selfGenCAP": 6,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 7,
+          "totalPoints": 7
+        },
+        {
+          "name": "KeShawn Ledet",
+          "id": null,
+          "selfGenSRA": 3,
+          "selfGenCAP": 4,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 3,
+          "totalPoints": 3
+        },
+        {
+          "name": "Brock Morrison",
+          "id": null,
+          "selfGenSRA": 1,
+          "selfGenCAP": 4,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 1,
+          "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "name": "HELIOS",
+      "target": 4,
+      "weekly": {
+        "1": 12,
+        "2": 20,
+        "3": 25
+      },
+      "seasonTotal": 57,
+      "reps": [
+        {
+          "name": "Bronson Young",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 17,
+          "asAssistCAP": 0,
+          "totalSRA": 17,
+          "totalPoints": 17
+        },
+        {
+          "name": "Kalin Reeves",
+          "id": null,
+          "selfGenSRA": 4,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 4,
+          "totalPoints": 4
+        },
+        {
+          "name": "Gavin Young",
+          "id": null,
+          "selfGenSRA": 2,
+          "selfGenCAP": 2,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 2,
+          "totalPoints": 2
+        },
+        {
+          "name": "Zaid Nimri",
+          "id": null,
+          "selfGenSRA": 2,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 2,
+          "totalPoints": 2
+        },
+        {
+          "name": "Ahmad Ashour",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 1,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        }
+      ]
+    },
+    {
+      "name": "THE CULTURE",
+      "target": 5,
+      "weekly": {
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "seasonTotal": 26,
+      "reps": [
+        {
+          "name": "Jeremy Ibarra",
+          "id": null,
+          "selfGenSRA": 4,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 1,
+          "asAssistCAP": 0,
+          "totalSRA": 5,
+          "totalPoints": 5
+        },
+        {
+          "name": "Victor Sandoval",
+          "id": null,
+          "selfGenSRA": 3,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 3,
+          "totalPoints": 3
+        },
+        {
+          "name": "John Cable",
+          "id": null,
+          "selfGenSRA": 2,
+          "selfGenCAP": 3,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 1,
+          "asAssistCAP": 0,
+          "totalSRA": 3,
+          "totalPoints": 3
+        },
+        {
+          "name": "Jordan Clark",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Julie Conkle",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Samuel Feliciano",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        }
+      ]
+    },
+    {
+      "name": "KILOWATT KARTEL",
+      "target": 5,
+      "weekly": {
+        "1": 10,
+        "2": 17,
+        "3": 21
+      },
+      "seasonTotal": 48,
+      "reps": [
+        {
+          "name": "Denise Faber",
+          "id": null,
+          "selfGenSRA": 7,
+          "selfGenCAP": 2,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 7,
+          "totalPoints": 7
+        },
+        {
+          "name": "Brianna Carrubba",
+          "id": null,
+          "selfGenSRA": 4,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 4,
+          "totalPoints": 4
+        },
+        {
+          "name": "Miggz Melgoza",
+          "id": null,
+          "selfGenSRA": 2,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 2,
+          "totalPoints": 2
+        },
+        {
+          "name": "Bryan Cowling",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 2,
+          "asAssistCAP": 0,
+          "totalSRA": 2,
+          "totalPoints": 2
+        },
+        {
+          "name": "Nick Soto",
+          "id": null,
+          "selfGenSRA": 2,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 2,
+          "totalPoints": 2
+        },
+        {
+          "name": "Eduardo Atayde",
+          "id": null,
+          "selfGenSRA": 1,
+          "selfGenCAP": 1,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 1,
+          "asAssistCAP": 0,
+          "totalSRA": 2,
+          "totalPoints": 2
+        },
+        {
+          "name": "Dane Matarese",
+          "id": null,
+          "selfGenSRA": 2,
+          "selfGenCAP": 2,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 2,
+          "totalPoints": 2
+        },
+        {
+          "name": "Edward Molina",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        }
+      ]
+    },
+    {
+      "name": "CP TEAM",
+      "target": 6,
+      "weekly": {
+        "1": 7,
+        "2": 11,
+        "3": 14
+      },
+      "seasonTotal": 32,
+      "reps": [
+        {
+          "name": "Courtney Poole",
+          "id": null,
+          "selfGenSRA": 2,
+          "selfGenCAP": 1,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 4,
+          "asAssistCAP": 0,
+          "totalSRA": 6,
+          "totalPoints": 6
+        },
+        {
+          "name": "Freddie Damper",
+          "id": null,
+          "selfGenSRA": 4,
+          "selfGenCAP": 1,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 2,
+          "asAssistCAP": 0,
+          "totalSRA": 6,
+          "totalPoints": 6
+        },
+        {
+          "name": "Shasta Fontaine",
+          "id": null,
+          "selfGenSRA": 2,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 2,
+          "totalPoints": 2
+        },
+        {
+          "name": "Kani Ware",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Darnell Bailey",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        }
+      ]
+    },
+    {
+      "name": "ASCEND",
+      "target": 5,
+      "weekly": {
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "seasonTotal": 28,
+      "reps": [
+        {
+          "name": "Lena Burghardt",
+          "id": null,
+          "selfGenSRA": 8,
+          "selfGenCAP": 6,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 8,
+          "totalPoints": 8
+        },
+        {
+          "name": "Michael Sarhene",
+          "id": null,
+          "selfGenSRA": 2,
+          "selfGenCAP": 2,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 2,
+          "totalPoints": 2
+        },
+        {
+          "name": "Matthew Polanco",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 2,
+          "asAssistCAP": 0,
+          "totalSRA": 2,
+          "totalPoints": 2
+        },
+        {
+          "name": "Adrian Pena",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "JJ Joseph",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        }
+      ]
+    },
+    {
+      "name": "WACO",
+      "target": 6,
+      "weekly": {
+        "1": 3,
+        "2": 5,
+        "3": 6
+      },
+      "seasonTotal": 14,
+      "reps": [
+        {
+          "name": "Patrick McAllister",
+          "id": null,
+          "selfGenSRA": 2,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 2,
+          "totalPoints": 2
+        },
+        {
+          "name": "Nick Copenbarger",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "John Navarro",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Diego Carrillo",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Kyler Gick",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Job Navarro",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Cameron Tucker",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Abigail Tucker",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        }
+      ]
+    },
+    {
+      "name": "ENLIGHTEN",
+      "target": 7,
+      "weekly": {
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "seasonTotal": 26,
+      "reps": [
+        {
+          "name": "Stephen Scott",
+          "id": null,
+          "selfGenSRA": 5,
+          "selfGenCAP": 2,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 2,
+          "asAssistCAP": 0,
+          "totalSRA": 7,
+          "totalPoints": 7
+        },
+        {
+          "name": "Kevin Keeley",
+          "id": null,
+          "selfGenSRA": 2,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 2,
+          "asAssistCAP": 0,
+          "totalSRA": 4,
+          "totalPoints": 4
+        },
+        {
+          "name": "Damian Christopherson",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Ali Siby",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        },
+        {
+          "name": "Wesley Mcgirt",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalSRA": 0,
+          "totalPoints": 0
+        }
+      ]
+    }
+  ]
+}
