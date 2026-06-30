@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:13:32.433Z",
+  "generatedAt": "2026-06-30T19:13:32.840Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -973,7 +973,7 @@
       "name": "ASCEND",
       "target": 4,
       "weekly": {
-        "1": 0,
+        "1": 1,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -1104,16 +1104,16 @@
         {
           "name": "Lena Burghardt",
           "id": "582289",
-          "selfGenSRA": 0,
+          "selfGenSRA": 1,
           "selfGenCAP": 1,
-          "withAssistSRA": 0,
+          "withAssistSRA": 1,
           "withAssistCAP": 1,
-          "asAssistSRA": 0,
+          "asAssistSRA": 1,
           "asAssistCAP": 1,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -1130,7 +1130,7 @@
           }
         }
       ],
-      "seasonTotal": 0
+      "seasonTotal": 1
     },
     {
       "name": "KiloWatt Kartel",
@@ -1793,7 +1793,7 @@
       "name": "Enlighten",
       "target": 6,
       "weekly": {
-        "1": 1,
+        "1": 2,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -1812,16 +1812,16 @@
         {
           "name": "Stephen Scott",
           "id": "564554",
-          "selfGenSRA": 1,
+          "selfGenSRA": 2,
           "selfGenCAP": 0,
-          "withAssistSRA": 1,
+          "withAssistSRA": 2,
           "withAssistCAP": 0,
-          "asAssistSRA": 1,
+          "asAssistSRA": 2,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
-            "1": 1,
+            "1": 2,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -2034,7 +2034,7 @@
           }
         }
       ],
-      "seasonTotal": 1
+      "seasonTotal": 2
     },
     {
       "name": "Blackout",
