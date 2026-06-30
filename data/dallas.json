@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T13:31:18.358Z",
+  "generatedAt": "2026-06-30T14:12:51.222Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -18,7 +18,7 @@
       "name": "UNYIELDING",
       "target": 5,
       "weekly": {
-        "1": 0,
+        "1": 1,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -65,16 +65,16 @@
         {
           "name": "Marcos Cano Fernandez",
           "id": "212374",
-          "selfGenSRA": 0,
+          "selfGenSRA": 1,
           "selfGenCAP": 0,
-          "withAssistSRA": 0,
+          "withAssistSRA": 1,
           "withAssistCAP": 0,
-          "asAssistSRA": 0,
+          "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -203,7 +203,7 @@
           }
         }
       ],
-      "seasonTotal": 0
+      "seasonTotal": 1
     },
     {
       "name": "All Gas No Breaks",
@@ -667,11 +667,11 @@
           "name": "Brock Morrison",
           "id": "116351",
           "selfGenSRA": 0,
-          "selfGenCAP": 0,
+          "selfGenCAP": 1,
           "withAssistSRA": 0,
-          "withAssistCAP": 0,
+          "withAssistCAP": 1,
           "asAssistSRA": 0,
-          "asAssistCAP": 0,
+          "asAssistCAP": 1,
           "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
@@ -1049,11 +1049,11 @@
           "name": "JJ Joseph",
           "id": "515598",
           "selfGenSRA": 0,
-          "selfGenCAP": 0,
+          "selfGenCAP": 1,
           "withAssistSRA": 0,
-          "withAssistCAP": 0,
+          "withAssistCAP": 1,
           "asAssistSRA": 0,
-          "asAssistCAP": 0,
+          "asAssistCAP": 1,
           "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
@@ -1355,7 +1355,7 @@
       "name": "CORE",
       "target": 7,
       "weekly": {
-        "1": 0,
+        "1": 1,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -1402,16 +1402,16 @@
         {
           "name": "Joshua Allen",
           "id": "554459",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
+          "selfGenSRA": 1,
+          "selfGenCAP": 1,
+          "withAssistSRA": 1,
+          "withAssistCAP": 1,
+          "asAssistSRA": 1,
+          "asAssistCAP": 1,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -1568,7 +1568,7 @@
           }
         }
       ],
-      "seasonTotal": 0
+      "seasonTotal": 1
     },
     {
       "name": "Waco",
