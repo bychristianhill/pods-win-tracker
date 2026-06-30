@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T14:38:14.842Z",
+  "generatedAt": "2026-06-30T15:13:33.838Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -16,7 +16,7 @@
   "pods": [
     {
       "name": "UNYIELDING",
-      "target": 5,
+      "target": 6,
       "weekly": {
         "1": 1,
         "2": 0,
@@ -201,13 +201,69 @@
             "13": 0,
             "14": 0
           }
+        },
+        {
+          "name": "Samuel",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalPoints": 0,
+          "totalSRA": 0,
+          "weekly": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          }
+        },
+        {
+          "name": "Hagan Harrison",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalPoints": 0,
+          "totalSRA": 0,
+          "weekly": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          }
         }
       ],
       "seasonTotal": 1
     },
     {
       "name": "All Gas No Breaks",
-      "target": 8,
+      "target": 6,
       "weekly": {
         "1": 0,
         "2": 0,
@@ -394,36 +450,8 @@
           }
         },
         {
-          "name": "Carson Torre",
-          "id": "562472",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 0,
-          "weekly": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0
-          }
-        },
-        {
-          "name": "David Streeter",
-          "id": "561688",
+          "name": "Colin",
+          "id": null,
           "selfGenSRA": 0,
           "selfGenCAP": 0,
           "withAssistSRA": 0,
@@ -611,41 +639,13 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Samuel Feliciano",
-          "id": "555874",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 0,
-          "weekly": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0
-          }
         }
       ],
       "seasonTotal": 0
     },
     {
       "name": "Market Leaders",
-      "target": 8,
+      "target": 6,
       "weekly": {
         "1": 0,
         "2": 0,
@@ -780,7 +780,7 @@
     },
     {
       "name": "Helios",
-      "target": 5,
+      "target": 4,
       "weekly": {
         "1": 1,
         "2": 0,
@@ -913,6 +913,34 @@
         {
           "name": "Zaid Nimri",
           "id": "579832",
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalPoints": 0,
+          "totalSRA": 0,
+          "weekly": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          }
+        },
+        {
+          "name": "Melissa Turner",
+          "id": null,
           "selfGenSRA": 0,
           "selfGenCAP": 0,
           "withAssistSRA": 0,
@@ -1106,7 +1134,7 @@
     },
     {
       "name": "KiloWatt Kartel",
-      "target": 7,
+      "target": 6,
       "weekly": {
         "1": 2,
         "2": 0,
@@ -1353,7 +1381,7 @@
     },
     {
       "name": "CORE",
-      "target": 7,
+      "target": 5,
       "weekly": {
         "1": 1,
         "2": 0,
@@ -1572,7 +1600,7 @@
     },
     {
       "name": "Waco",
-      "target": 6,
+      "target": 5,
       "weekly": {
         "1": 0,
         "2": 0,
@@ -1705,90 +1733,6 @@
         {
           "name": "Kyler Gick",
           "id": null,
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 0,
-          "weekly": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0
-          }
-        },
-        {
-          "name": "Job Navarro",
-          "id": null,
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 0,
-          "weekly": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0
-          }
-        },
-        {
-          "name": "Cameron Tucker",
-          "id": "516336",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 0,
-          "weekly": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0
-          }
-        },
-        {
-          "name": "Abigail Tucker",
-          "id": "577921",
           "selfGenSRA": 0,
           "selfGenCAP": 0,
           "withAssistSRA": 0,
@@ -2065,10 +2009,10 @@
       "seasonTotal": 1
     },
     {
-      "name": "CP TEAM",
-      "target": 4,
+      "name": "Blackout",
+      "target": 3,
       "weekly": {
-        "1": 0,
+        "1": 6,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -2087,6 +2031,174 @@
         {
           "name": "Courtney Poole",
           "id": "478922",
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalPoints": 0,
+          "totalSRA": 0,
+          "weekly": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          }
+        },
+        {
+          "name": "Shasta Fontaine",
+          "id": "568374",
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalPoints": 0,
+          "totalSRA": 0,
+          "weekly": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          }
+        },
+        {
+          "name": "Freddie Damper",
+          "id": "542991",
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalPoints": 0,
+          "totalSRA": 0,
+          "weekly": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          }
+        },
+        {
+          "name": "Warlord",
+          "id": null,
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalPoints": 0,
+          "totalSRA": 0,
+          "weekly": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          }
+        },
+        {
+          "name": "Carson Torre",
+          "id": "562472",
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalPoints": 0,
+          "totalSRA": 0,
+          "weekly": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          }
+        },
+        {
+          "name": "David Streeter",
+          "id": "561688",
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalPoints": 0,
+          "totalSRA": 0,
+          "weekly": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          }
+        },
+        {
+          "name": "Samuel Feliciano",
+          "id": "555874",
           "selfGenSRA": 0,
           "selfGenCAP": 0,
           "withAssistSRA": 0,
@@ -2169,46 +2281,18 @@
           }
         },
         {
-          "name": "Shasta Fontaine",
-          "id": "568374",
-          "selfGenSRA": 0,
+          "name": "Week Total",
+          "id": null,
+          "selfGenSRA": 6,
           "selfGenCAP": 0,
           "withAssistSRA": 0,
           "withAssistCAP": 0,
           "asAssistSRA": 0,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 6,
           "weekly": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0
-          }
-        },
-        {
-          "name": "Freddie Damper",
-          "id": "542991",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 0,
-          "weekly": {
-            "1": 0,
+            "1": 6,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -2225,7 +2309,7 @@
           }
         }
       ],
-      "seasonTotal": 0
+      "seasonTotal": 6
     }
   ]
 }
