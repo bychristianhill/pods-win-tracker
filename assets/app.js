@@ -24,7 +24,7 @@
     "KILOWATT KARTEL":   "assets/pods/kilowatt-kartel.png",
     "ASCEND":            "assets/pods/ascend.png",
     "ENLIGHTEN":         "assets/pods/enlighten.jpg",
-    "BLACKOUT":           "assets/pods/cp-team.png",   
+    "BLACKOUT":          "assets/pods/cp-team.png",   
     "WACO":              "assets/pods/waco.jpg", 
     "WARLORD":           "assets/pods/warlord.jpg",
   };
