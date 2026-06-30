@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T15:22:55.751Z",
+  "generatedAt": "2026-06-30T16:04:19.406Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1381,7 +1381,7 @@
     },
     {
       "name": "CORE",
-      "target": 5,
+      "target": 6,
       "weekly": {
         "1": 1,
         "2": 0,
@@ -1570,6 +1570,34 @@
         {
           "name": "Simone Paryente",
           "id": "557380",
+          "selfGenSRA": 0,
+          "selfGenCAP": 0,
+          "withAssistSRA": 0,
+          "withAssistCAP": 0,
+          "asAssistSRA": 0,
+          "asAssistCAP": 0,
+          "totalPoints": 0,
+          "totalSRA": 0,
+          "weekly": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          }
+        },
+        {
+          "name": "Kaynao",
+          "id": null,
           "selfGenSRA": 0,
           "selfGenCAP": 0,
           "withAssistSRA": 0,
@@ -2012,7 +2040,7 @@
       "name": "Blackout",
       "target": 3,
       "weekly": {
-        "1": 6,
+        "1": 0,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -2111,35 +2139,30 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Warlord",
-          "id": null,
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 0,
-          "weekly": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0
-          }
-        },
+        }
+      ],
+      "seasonTotal": 0
+    },
+    {
+      "name": "Warlord",
+      "target": 4,
+      "weekly": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0
+      },
+      "reps": [
         {
           "name": "Carson Torre",
           "id": "562472",
@@ -2279,93 +2302,9 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Vernon Daniel",
-          "id": "579325",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 0,
-          "weekly": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0
-          }
-        },
-        {
-          "name": "Simon Estrada",
-          "id": null,
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 0,
-          "weekly": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0
-          }
-        },
-        {
-          "name": "Week Total",
-          "id": null,
-          "selfGenSRA": 6,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 6,
-          "weekly": {
-            "1": 6,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0
-          }
         }
       ],
-      "seasonTotal": 6
+      "seasonTotal": 0
     }
   ]
 }
