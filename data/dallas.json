@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T16:13:32.289Z",
+  "generatedAt": "2026-06-30T17:13:35.418Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -265,7 +265,7 @@
       "name": "All Gas No Breaks",
       "target": 6,
       "weekly": {
-        "1": 0,
+        "1": 1,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -340,16 +340,16 @@
         {
           "name": "Alex Hepworth",
           "id": "566245",
-          "selfGenSRA": 0,
+          "selfGenSRA": 1,
           "selfGenCAP": 0,
-          "withAssistSRA": 0,
+          "withAssistSRA": 1,
           "withAssistCAP": 0,
-          "asAssistSRA": 0,
+          "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -478,7 +478,7 @@
           }
         }
       ],
-      "seasonTotal": 0
+      "seasonTotal": 1
     },
     {
       "name": "The Culture",
