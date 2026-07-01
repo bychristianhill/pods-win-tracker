@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T15:13:32.613Z",
+  "generatedAt": "2026-07-01T16:13:32.207Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1790,7 +1790,7 @@
       "seasonTotal": 0
     },
     {
-      "name": "Enlighten",
+      "name": "Chosen",
       "target": 6,
       "weekly": {
         "1": 3,
