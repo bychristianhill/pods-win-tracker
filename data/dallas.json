@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T02:13:32.184Z",
+  "generatedAt": "2026-07-01T03:13:32.348Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -265,7 +265,7 @@
       "name": "All Gas No Breaks",
       "target": 6,
       "weekly": {
-        "1": 1,
+        "1": 2,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -396,16 +396,16 @@
         {
           "name": "Jonah Sullivan",
           "id": "469804",
-          "selfGenSRA": 0,
+          "selfGenSRA": 1,
           "selfGenCAP": 0,
-          "withAssistSRA": 0,
+          "withAssistSRA": 1,
           "withAssistCAP": 0,
-          "asAssistSRA": 0,
+          "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -478,7 +478,7 @@
           }
         }
       ],
-      "seasonTotal": 1
+      "seasonTotal": 2
     },
     {
       "name": "The Culture",
@@ -1383,7 +1383,7 @@
       "name": "CORE",
       "target": 6,
       "weekly": {
-        "1": 1,
+        "1": 2,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -1430,16 +1430,16 @@
         {
           "name": "Joshua Allen",
           "id": "554459",
-          "selfGenSRA": 0,
+          "selfGenSRA": 1,
           "selfGenCAP": 0,
-          "withAssistSRA": 0,
+          "withAssistSRA": 1,
           "withAssistCAP": 0,
-          "asAssistSRA": 0,
+          "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -1459,11 +1459,11 @@
           "name": "Justin Kerby",
           "id": "560953",
           "selfGenSRA": 1,
-          "selfGenCAP": 2,
+          "selfGenCAP": 3,
           "withAssistSRA": 1,
-          "withAssistCAP": 2,
+          "withAssistCAP": 3,
           "asAssistSRA": 1,
-          "asAssistCAP": 2,
+          "asAssistCAP": 3,
           "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
@@ -1624,7 +1624,7 @@
           }
         }
       ],
-      "seasonTotal": 1
+      "seasonTotal": 2
     },
     {
       "name": "Waco",
