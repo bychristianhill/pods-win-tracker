@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T18:13:32.634Z",
+  "generatedAt": "2026-07-01T19:13:31.979Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -232,7 +232,7 @@
         },
         {
           "name": "Hagan Harrison",
-          "id": null,
+          "id": "582702",
           "selfGenSRA": 0,
           "selfGenCAP": 0,
           "withAssistSRA": 0,
@@ -1596,8 +1596,8 @@
           }
         },
         {
-          "name": "Kaynao",
-          "id": null,
+          "name": "Kanayo Monye",
+          "id": "582676",
           "selfGenSRA": 0,
           "selfGenCAP": 0,
           "withAssistSRA": 0,
@@ -1760,7 +1760,7 @@
         },
         {
           "name": "Kyler Gick",
-          "id": null,
+          "id": "582994",
           "selfGenSRA": 0,
           "selfGenCAP": 0,
           "withAssistSRA": 0,
@@ -1979,7 +1979,7 @@
         },
         {
           "name": "Wesley Mcgirt",
-          "id": null,
+          "id": "582835",
           "selfGenSRA": 0,
           "selfGenCAP": 0,
           "withAssistSRA": 0,
@@ -2007,7 +2007,7 @@
         },
         {
           "name": "Kevin Keeley",
-          "id": null,
+          "id": "582681",
           "selfGenSRA": 0,
           "selfGenCAP": 0,
           "withAssistSRA": 0,
