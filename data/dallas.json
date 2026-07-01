@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T23:13:33.242Z",
+  "generatedAt": "2026-07-01T00:13:34.586Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1136,7 +1136,7 @@
       "name": "KiloWatt Kartel",
       "target": 6,
       "weekly": {
-        "1": 2,
+        "1": 3,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -1184,11 +1184,11 @@
           "name": "Brianna Carrubba",
           "id": "534135",
           "selfGenSRA": 0,
-          "selfGenCAP": 0,
+          "selfGenCAP": 1,
           "withAssistSRA": 0,
-          "withAssistCAP": 0,
+          "withAssistCAP": 1,
           "asAssistSRA": 0,
-          "asAssistCAP": 0,
+          "asAssistCAP": 1,
           "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
@@ -1267,16 +1267,16 @@
         {
           "name": "Eduardo Atayde",
           "id": "517099",
-          "selfGenSRA": 0,
+          "selfGenSRA": 1,
           "selfGenCAP": 0,
-          "withAssistSRA": 0,
+          "withAssistSRA": 1,
           "withAssistCAP": 0,
-          "asAssistSRA": 0,
+          "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -1377,7 +1377,7 @@
           }
         }
       ],
-      "seasonTotal": 2
+      "seasonTotal": 3
     },
     {
       "name": "CORE",
@@ -1793,7 +1793,7 @@
       "name": "Enlighten",
       "target": 6,
       "weekly": {
-        "1": 2,
+        "1": 3,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -1812,16 +1812,16 @@
         {
           "name": "Stephen Scott",
           "id": "564554",
-          "selfGenSRA": 2,
+          "selfGenSRA": 3,
           "selfGenCAP": 1,
-          "withAssistSRA": 2,
+          "withAssistSRA": 3,
           "withAssistCAP": 1,
-          "asAssistSRA": 2,
+          "asAssistSRA": 3,
           "asAssistCAP": 1,
           "totalPoints": 0,
-          "totalSRA": 2,
+          "totalSRA": 3,
           "weekly": {
-            "1": 2,
+            "1": 3,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -2034,7 +2034,7 @@
           }
         }
       ],
-      "seasonTotal": 2
+      "seasonTotal": 3
     },
     {
       "name": "Blackout",
@@ -2195,11 +2195,11 @@
           "name": "David Streeter",
           "id": "561688",
           "selfGenSRA": 0,
-          "selfGenCAP": 0,
+          "selfGenCAP": 1,
           "withAssistSRA": 0,
-          "withAssistCAP": 0,
+          "withAssistCAP": 1,
           "asAssistSRA": 0,
-          "asAssistCAP": 0,
+          "asAssistCAP": 1,
           "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
