@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T05:13:32.148Z",
+  "generatedAt": "2026-07-01T06:13:32.387Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -265,7 +265,7 @@
       "name": "All Gas No Breaks",
       "target": 6,
       "weekly": {
-        "1": 2,
+        "1": 3,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -424,16 +424,16 @@
         {
           "name": "Logan Parker",
           "id": "469804",
-          "selfGenSRA": 0,
+          "selfGenSRA": 1,
           "selfGenCAP": 0,
-          "withAssistSRA": 0,
+          "withAssistSRA": 1,
           "withAssistCAP": 0,
-          "asAssistSRA": 0,
+          "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -478,7 +478,7 @@
           }
         }
       ],
-      "seasonTotal": 2
+      "seasonTotal": 3
     },
     {
       "name": "The Culture",
@@ -1383,7 +1383,7 @@
       "name": "CORE",
       "target": 6,
       "weekly": {
-        "1": 2,
+        "1": 3,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -1514,16 +1514,16 @@
         {
           "name": "Ruben Briones",
           "id": "578328",
-          "selfGenSRA": 0,
+          "selfGenSRA": 1,
           "selfGenCAP": 0,
-          "withAssistSRA": 0,
+          "withAssistSRA": 1,
           "withAssistCAP": 0,
-          "asAssistSRA": 0,
+          "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -1624,7 +1624,7 @@
           }
         }
       ],
-      "seasonTotal": 2
+      "seasonTotal": 3
     },
     {
       "name": "Waco",
