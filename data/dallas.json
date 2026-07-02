@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T03:13:32.821Z",
+  "generatedAt": "2026-07-02T04:13:32.356Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -265,7 +265,7 @@
       "name": "All Gas No Breaks",
       "target": 6,
       "weekly": {
-        "1": 3,
+        "1": 4,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -424,16 +424,16 @@
         {
           "name": "Logan Parker",
           "id": "469804",
-          "selfGenSRA": 1,
+          "selfGenSRA": 2,
           "selfGenCAP": 0,
-          "withAssistSRA": 1,
+          "withAssistSRA": 2,
           "withAssistCAP": 0,
-          "asAssistSRA": 1,
+          "asAssistSRA": 2,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
-            "1": 1,
+            "1": 2,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -478,7 +478,7 @@
           }
         }
       ],
-      "seasonTotal": 3
+      "seasonTotal": 4
     },
     {
       "name": "The Culture",
