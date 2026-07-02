@@ -289,7 +289,7 @@
               <div class="pod-sub">${(p.reps || []).length} reps · target ${tgt} ${d.metricLabel || "SRA"}/wk</div>
             </div>
           </div>
-          <span class="badge ${hit ? "win" : "miss"}">${hit ? "● Win" : "Below"}</span>
+         ${hit ? `<span class="badge win">● Win</span>` : ""}
         </div>
 
         <div class="progress-wrap">
