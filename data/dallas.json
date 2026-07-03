@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T14:13:32.854Z",
+  "generatedAt": "2026-07-03T15:13:32.525Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1105,11 +1105,11 @@
           "name": "Lena Burghardt",
           "id": "582289",
           "selfGenSRA": 2,
-          "selfGenCAP": 2,
+          "selfGenCAP": 3,
           "withAssistSRA": 2,
-          "withAssistCAP": 2,
+          "withAssistCAP": 3,
           "asAssistSRA": 2,
-          "asAssistCAP": 2,
+          "asAssistCAP": 3,
           "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
