@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T23:13:33.958Z",
+  "generatedAt": "2026-07-04T00:13:32.456Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -265,7 +265,7 @@
       "name": "All Gas No Breaks",
       "target": 6,
       "weekly": {
-        "1": 4,
+        "1": 5,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -284,16 +284,16 @@
         {
           "name": "Tyler Lange",
           "id": "564554",
-          "selfGenSRA": 0,
+          "selfGenSRA": 1,
           "selfGenCAP": 0,
-          "withAssistSRA": 0,
+          "withAssistSRA": 1,
           "withAssistCAP": 0,
-          "asAssistSRA": 0,
+          "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -478,7 +478,7 @@
           }
         }
       ],
-      "seasonTotal": 4
+      "seasonTotal": 5
     },
     {
       "name": "The Culture",
