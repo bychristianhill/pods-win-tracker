@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T02:13:32.543Z",
+  "generatedAt": "2026-07-04T03:13:32.644Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1793,7 +1793,7 @@
       "name": "Chosen",
       "target": 6,
       "weekly": {
-        "1": 6,
+        "1": 7,
         "2": 0,
         "3": 0,
         "4": 0,
@@ -1980,16 +1980,16 @@
         {
           "name": "Kevin Keeley",
           "id": "582681",
-          "selfGenSRA": 1,
+          "selfGenSRA": 2,
           "selfGenCAP": 0,
-          "withAssistSRA": 1,
+          "withAssistSRA": 2,
           "withAssistCAP": 0,
-          "asAssistSRA": 1,
+          "asAssistSRA": 2,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
-            "1": 1,
+            "1": 2,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -2006,7 +2006,7 @@
           }
         }
       ],
-      "seasonTotal": 6
+      "seasonTotal": 7
     },
     {
       "name": "Blackout",
