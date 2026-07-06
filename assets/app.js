@@ -306,24 +306,24 @@
         </div>
 
         <button class="rep-toggle" aria-expanded="${autoOpen}">
-          <span class="chev">▸</span> Rep totals (week to date)
+         <span class="chev">▸</span> Rep SRAs · Week ${wk}
         </button>
         ${repTable(p, d, autoOpen === "false")}
       </article>`;
   }
 
-  // Total SRA per rep = the tab's SRA columns summed (self-gen + with-assist + as-assist).
-  function repTotalSRA(r) {
-    if (r.totalSRA !== undefined && r.totalSRA !== null) return num(r.totalSRA);
-    return num(r.selfGenSRA) + num(r.withAssistSRA) + num(r.asAssistSRA);
+    // SRA for a rep in ONE specific week (per-week, not cumulative).
+  function repWeekSRA(r, wk) {
+    return num(r.weekly && r.weekly[String(wk)]);
   }
 
   function repTable(p, d, hidden) {
     const q = state.rep.trim().toLowerCase();
-    const reps = (p.reps || []).slice().sort((a, b) => repTotalSRA(b) - repTotalSRA(a));
+    const wk = state.week;
+    const reps = (p.reps || []).slice().sort((a, b) => repWeekSRA(b, wk) - repWeekSRA(a, wk));
     const rows = reps.map((r) => {
       const hl = q && r.name.toLowerCase().includes(q) ? " highlight" : "";
-      const sra = repTotalSRA(r);
+      const sra = repWeekSRA(r, wk);
       return `<tr class="${hl}">
         <td class="name">${esc(r.name)}</td>
         <td class="sra ${sra >= 1 ? "pos" : "zero"}">${sra}</td>
