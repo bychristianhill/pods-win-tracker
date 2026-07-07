@@ -244,7 +244,7 @@
   function renderPods() {
     const d = state.data;
     const grid = $("podGrid");
-    const pods = visiblePods();
+    const pods = visiblePods().slice().sort((a, b) => podWeeklyValue(b, state.week) - podWeeklyValue(a, state.week));
     if (!pods.length) {
       grid.innerHTML = `<div class="empty">No pods or reps match your filter.</div>`;
       return;
