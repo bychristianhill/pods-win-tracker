@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T10:13:32.440Z",
+  "generatedAt": "2026-07-08T11:13:32.001Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1712,11 +1712,11 @@
           "name": "Patrick McAllister",
           "id": "574611",
           "selfGenSRA": 0,
-          "selfGenCAP": 1,
+          "selfGenCAP": 0,
           "withAssistSRA": 0,
-          "withAssistCAP": 1,
+          "withAssistCAP": 0,
           "asAssistSRA": 0,
-          "asAssistCAP": 1,
+          "asAssistCAP": 0,
           "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
