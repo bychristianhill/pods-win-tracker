@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T00:13:32.676Z",
+  "generatedAt": "2026-07-16T01:13:32.091Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -279,7 +279,7 @@
       "weekly": {
         "1": 6,
         "2": 7,
-        "3": 2,
+        "3": 3,
         "4": 0,
         "5": 0,
         "6": 0,
@@ -359,11 +359,11 @@
           "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 3,
+          "totalSRA": 4,
           "weekly": {
             "1": 1,
             "2": 2,
-            "3": 0,
+            "3": 1,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -490,7 +490,7 @@
           }
         }
       ],
-      "seasonTotal": 15
+      "seasonTotal": 16
     },
     {
       "name": "The Culture",
