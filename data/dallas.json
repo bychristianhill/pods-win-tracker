@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T00:13:33.179Z",
+  "generatedAt": "2026-07-18T01:13:32.626Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -633,7 +633,7 @@
       "weekly": {
         "1": 0,
         "2": 5,
-        "3": 8,
+        "3": 9,
         "4": 0,
         "5": 0,
         "6": 0,
@@ -713,11 +713,11 @@
           "asAssistSRA": 0,
           "asAssistCAP": 1,
           "totalPoints": 0,
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 0,
             "2": 3,
-            "3": 2,
+            "3": 3,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -760,7 +760,7 @@
           }
         }
       ],
-      "seasonTotal": 13
+      "seasonTotal": 14
     },
     {
       "name": "Helios",
