@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T05:13:32.698Z",
+  "generatedAt": "2026-07-21T06:13:44.153Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1786,7 +1786,7 @@
         "1": 7,
         "2": 2,
         "3": 4,
-        "4": 0,
+        "4": 1,
         "5": 0,
         "6": 0,
         "7": 0,
@@ -1809,12 +1809,12 @@
           "asAssistSRA": 5,
           "asAssistCAP": 2,
           "totalPoints": 0,
-          "totalSRA": 10,
+          "totalSRA": 11,
           "weekly": {
             "1": 5,
             "2": 2,
             "3": 3,
-            "4": 0,
+            "4": 1,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -1996,7 +1996,7 @@
           }
         }
       ],
-      "seasonTotal": 13
+      "seasonTotal": 14
     },
     {
       "name": "Blackout",
