@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T17:13:33.796Z",
+  "generatedAt": "2026-07-21T18:13:35.229Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1837,7 +1837,7 @@
         "1": 2,
         "2": 4,
         "3": 0,
-        "4": 0,
+        "4": 1,
         "5": 0,
         "6": 0,
         "7": 0,
@@ -1944,12 +1944,12 @@
           "asAssistSRA": 0,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
-            "4": 0,
+            "4": 1,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -1991,7 +1991,7 @@
           }
         }
       ],
-      "seasonTotal": 6
+      "seasonTotal": 7
     },
     {
       "name": "Warlord",
