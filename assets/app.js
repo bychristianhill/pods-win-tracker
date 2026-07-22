@@ -89,12 +89,64 @@
   }
 
   const podWeeklyValue = (pod, weekNo) => num(pod.weekly && pod.weekly[String(weekNo)]);
-  const podHitWeek = (pod, weekNo) => podWeeklyValue(pod, weekNo) >= num(pod.target) && num(pod.target) > 0;
+
+  // Weekly targets can differ week to week; fall back to the pod's single target.
+  function podWeekTarget(pod, weekNo) {
+    const wt = pod.weeklyTargets && pod.weeklyTargets[String(weekNo)];
+    return (wt === undefined || wt === null) ? num(pod.target) : num(wt);
+  }
+  const podHitWeek = (pod, weekNo) => {
+    const t = podWeekTarget(pod, weekNo);
+    return t > 0 && podWeeklyValue(pod, weekNo) >= t;
+  };
 
   function weeksHit(pod, throughWeek) {
     let n = 0;
     for (let w = 1; w <= throughWeek; w++) if (podHitWeek(pod, w)) n++;
     return n;
+  }
+
+  // ---------- month helpers (week→month mapping comes straight from the sheet) ----------
+  const weekMonth = (d, w) => (d.weekMonths || {})[String(w)] || "";
+
+  // Weeks of a month that have actually happened (w <= currentWeekNo).
+  function weeksInMonth(d, month) {
+    const out = [];
+    for (let w = 1; w <= d.currentWeekNo; w++) if (weekMonth(d, w) === month) out.push(w);
+    return out;
+  }
+  function podMonthSRA(d, pod, month) {
+    return weeksInMonth(d, month).reduce((s, w) => s + podWeeklyValue(pod, w), 0);
+  }
+  const podMonthTarget = (pod, month) => num(pod.monthlyTargets && pod.monthlyTargets[month]);
+  function podHitMonth(d, pod, month) {
+    const t = podMonthTarget(pod, month);
+    return t > 0 && podMonthSRA(d, pod, month) >= t;
+  }
+  function monthsStarted(d) {
+    const seen = [];
+    for (let w = 1; w <= d.currentWeekNo; w++) {
+      const m = weekMonth(d, w);
+      if (m && seen.indexOf(m) < 0) seen.push(m);
+    }
+    return seen;
+  }
+  function repMonthSRA(d, r, month) {
+    return weeksInMonth(d, month).reduce((s, w) => s + num(r.weekly && r.weekly[String(w)]), 0);
+  }
+
+  // ---------- progress bar: one segment per SRA, filled as they come in ----------
+  function segBar(value, target, hit) {
+    const t = Math.max(0, Math.round(num(target)));
+    if (t <= 0) return `<div class="seg-track"></div>`;
+    const v = Math.max(0, Math.round(num(value)));
+    let s = "";
+    for (let i = 1; i <= t; i++) s += `<span class="seg${i <= v ? " on" : ""}"></span>`;
+    return `<div class="seg-track${hit ? " win" : ""}">${s}</div>`;
+  }
+  function remainText(value, target) {
+    const left = Math.max(0, num(target) - num(value));
+    return left > 0 ? `${round(left)} SRA REMAINING` : "TARGET HIT";
   }
 
   // ---------- render ----------
@@ -264,7 +316,7 @@
   function podCard(p, d) {
     const wk = state.week;
     const val = podWeeklyValue(p, wk);
-    const tgt = num(p.target);
+    const tgt = podWeekTarget(p, wk);
     const hit = podHitWeek(p, wk);
     const pct = tgt > 0 ? Math.min(100, Math.round((val / tgt) * 100)) : 0;
     const hits = weeksHit(p, d.currentWeekNo);
@@ -277,6 +329,21 @@
       const cls = (podHitWeek(p, w) ? " hit" : "") + (w === wk ? " cur" : "");
       dots += `<span class="dot${cls}" title="Week ${w}">${w}</span>`;
     }
+
+    // ----- monthly (month of the selected week, per the sheet) -----
+    const month  = weekMonth(d, wk);
+    const mTgt   = podMonthTarget(p, month);
+    const mVal   = podMonthSRA(d, p, month);
+    const mPct   = mTgt > 0 ? Math.min(100, Math.round((mVal / mTgt) * 100)) : 0;
+    const mHit   = mTgt > 0 && mVal >= mTgt;
+    const mLeft  = Math.max(0, mTgt - mVal);
+    const mList  = monthsStarted(d);
+    const mHits  = mList.filter((m) => podHitMonth(d, p, m)).length;
+    let mDots = "";
+    mList.forEach((m) => {
+      const cls = (podHitMonth(d, p, m) ? " hit" : "") + (m === month ? " cur" : "");
+      mDots += `<span class="dot${cls}" title="${esc(m)}">${esc(m.slice(0, 3))}</span>`;
+    });
 
     const autoOpen = state.rep.trim() ? "true" : "false";
     return `
@@ -295,15 +362,31 @@
         <div class="progress-wrap">
           <div class="progress-top">
             <div class="progress-val">${round(val)} <span class="tgt">/ ${tgt}</span></div>
-            <div class="progress-pct">${pct}% of target</div>
+            <div class="progress-pct${hit ? " done" : ""}">${remainText(val, tgt)}</div>
           </div>
-          <div class="track"><div class="fill ${hit ? "win" : ""}" style="width:${pct}%"></div></div>
+          ${segBar(val, tgt, hit)}
         </div>
 
         <div class="weeks-hit">
           <span class="wh-label">Weeks hit ${hits}/${d.currentWeekNo}</span>
           ${dots}
         </div>
+
+        ${month ? `
+        <div class="month-wrap">
+          <div class="month-head">
+            <span class="month-label">${esc(month)} · Monthly</span>
+          </div>
+          <div class="progress-top">
+            <div class="progress-val">${round(mVal)} <span class="tgt">/ ${round(mTgt)}</span></div>
+            <div class="progress-pct${mHit ? " done" : ""}">${mTgt > 0 ? remainText(mVal, mTgt) : "No target"}</div>
+          </div>
+          ${segBar(mVal, mTgt, mHit)}
+          <div class="weeks-hit months-hit">
+            <span class="wh-label">Months hit ${mHits}/${mList.length}</span>
+            ${mDots}
+          </div>
+        </div>` : ""}
 
         <button class="rep-toggle" aria-expanded="${autoOpen}">
          <span class="chev">▸</span> Rep SRAs · Week ${wk}
@@ -320,17 +403,20 @@
   function repTable(p, d, hidden) {
     const q = state.rep.trim().toLowerCase();
     const wk = state.week;
+    const month = weekMonth(d, wk);
     const reps = (p.reps || []).slice().sort((a, b) => repWeekSRA(b, wk) - repWeekSRA(a, wk));
     const rows = reps.map((r) => {
       const hl = q && r.name.toLowerCase().includes(q) ? " highlight" : "";
       const sra = repWeekSRA(r, wk);
+      const mtd = month ? repMonthSRA(d, r, month) : 0;
       return `<tr class="${hl}">
         <td class="name">${esc(r.name)}</td>
         <td class="sra ${sra >= 1 ? "pos" : "zero"}">${sra}</td>
+        <td class="mtd">${mtd}</td>
       </tr>`;
     }).join("");
     return `<table class="rep-table"${hidden ? " hidden" : ""}>
-      <thead><tr><th>Rep</th><th>SRA</th></tr></thead>
+      <thead><tr><th>Rep</th><th>SRA</th><th>MTD</th></tr></thead>
       <tbody>${rows}</tbody>
     </table>`;
   }
