@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T15:13:32.780Z",
+  "generatedAt": "2026-07-22T15:55:23.492Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -31,14 +31,35 @@
       "end": "2026-07-26"
     }
   ],
+  "weekMonths": {
+    "1": "July",
+    "2": "July",
+    "3": "July",
+    "4": "July",
+    "5": "July",
+    "6": "August",
+    "7": "August",
+    "8": "August",
+    "9": "August",
+    "10": "September",
+    "11": "September",
+    "12": "September",
+    "13": "September",
+    "14": "September"
+  },
+  "months": [
+    "July",
+    "August",
+    "September"
+  ],
   "pods": [
     {
       "name": "UNYIELDING",
-      "target": 5,
-      "weekly": {
-        "1": 7,
-        "2": 8,
-        "3": 6,
+      "target": 4,
+      "weeklyTargets": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
         "4": 4,
         "5": 4,
         "6": 4,
@@ -51,17 +72,31 @@
         "13": 4,
         "14": 4
       },
+      "monthlyTargets": {
+        "July": 20,
+        "August": 16,
+        "September": 20
+      },
+      "weekly": {
+        "1": 3,
+        "2": 4,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0
+      },
       "reps": [
         {
           "name": "Gran Crum",
           "id": "443299",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
             "1": 1,
@@ -83,13 +118,6 @@
         {
           "name": "Marcos Cano Fernandez",
           "id": "212374",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 0,
@@ -111,13 +139,6 @@
         {
           "name": "Felton Byrd",
           "id": "477287",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
             "1": 1,
@@ -139,13 +160,6 @@
         {
           "name": "Jonathan Bell",
           "id": "543269",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
             "1": 1,
@@ -167,13 +181,6 @@
         {
           "name": "Nebiat Tesfay",
           "id": "581199",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
             "1": 0,
@@ -191,46 +198,18 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Weekly Target",
-          "id": null,
-          "selfGenSRA": 4,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 56,
-          "weekly": {
-            "1": 4,
-            "2": 4,
-            "3": 4,
-            "4": 4,
-            "5": 4,
-            "6": 4,
-            "7": 4,
-            "8": 4,
-            "9": 4,
-            "10": 4,
-            "11": 4,
-            "12": 4,
-            "13": 4,
-            "14": 4
-          }
         }
       ],
-      "seasonTotal": 65
+      "seasonTotal": 9
     },
     {
       "name": "All Gas No Breaks",
-      "target": 5,
-      "weekly": {
-        "1": 12,
-        "2": 13,
-        "3": 12,
-        "4": 8,
+      "target": 6,
+      "weeklyTargets": {
+        "1": 6,
+        "2": 6,
+        "3": 6,
+        "4": 6,
         "5": 6,
         "6": 6,
         "7": 6,
@@ -242,17 +221,31 @@
         "13": 6,
         "14": 6
       },
+      "monthlyTargets": {
+        "July": 30,
+        "August": 24,
+        "September": 30
+      },
+      "weekly": {
+        "1": 6,
+        "2": 7,
+        "3": 6,
+        "4": 2,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0
+      },
       "reps": [
         {
           "name": "Tyler Lange",
           "id": "564554",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 6,
           "weekly": {
             "1": 1,
@@ -274,13 +267,6 @@
         {
           "name": "Alex Hepworth",
           "id": "566245",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 5,
           "weekly": {
             "1": 1,
@@ -302,13 +288,6 @@
         {
           "name": "Carter Glass",
           "id": "565713",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
             "1": 0,
@@ -330,13 +309,6 @@
         {
           "name": "Jonah Sullivan",
           "id": "469804",
-          "selfGenSRA": 2,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 5,
           "weekly": {
             "1": 2,
@@ -358,13 +330,6 @@
         {
           "name": "Logan Parker",
           "id": "469804",
-          "selfGenSRA": 2,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
             "1": 2,
@@ -386,13 +351,6 @@
         {
           "name": "Jeremy Chaffee",
           "id": null,
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 0,
@@ -414,13 +372,6 @@
         {
           "name": "Markus Bohn",
           "id": null,
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -438,46 +389,18 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Weekly Target",
-          "id": null,
-          "selfGenSRA": 6,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 84,
-          "weekly": {
-            "1": 6,
-            "2": 6,
-            "3": 6,
-            "4": 6,
-            "5": 6,
-            "6": 6,
-            "7": 6,
-            "8": 6,
-            "9": 6,
-            "10": 6,
-            "11": 6,
-            "12": 6,
-            "13": 6,
-            "14": 6
-          }
         }
       ],
-      "seasonTotal": 105
+      "seasonTotal": 21
     },
     {
       "name": "The Culture",
-      "target": 5,
-      "weekly": {
-        "1": 8,
-        "2": 5,
+      "target": 4,
+      "weeklyTargets": {
+        "1": 4,
+        "2": 4,
         "3": 4,
-        "4": 5,
+        "4": 4,
         "5": 4,
         "6": 5,
         "7": 4,
@@ -489,17 +412,31 @@
         "13": 4,
         "14": 4
       },
+      "monthlyTargets": {
+        "July": 20,
+        "August": 17,
+        "September": 20
+      },
+      "weekly": {
+        "1": 4,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0
+      },
       "reps": [
         {
           "name": "Jeremy Ibarra",
           "id": "562596",
-          "selfGenSRA": 2,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 4,
           "weekly": {
             "1": 2,
@@ -521,13 +458,6 @@
         {
           "name": "Victor Sandoval",
           "id": "509448",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 1,
@@ -549,13 +479,6 @@
         {
           "name": "Debbie Cabello",
           "id": "536372",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 1,
@@ -573,46 +496,18 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Weekly Target",
-          "id": null,
-          "selfGenSRA": 4,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 57,
-          "weekly": {
-            "1": 4,
-            "2": 4,
-            "3": 4,
-            "4": 4,
-            "5": 4,
-            "6": 5,
-            "7": 4,
-            "8": 4,
-            "9": 4,
-            "10": 4,
-            "11": 4,
-            "12": 4,
-            "13": 4,
-            "14": 4
-          }
         }
       ],
-      "seasonTotal": 63
+      "seasonTotal": 6
     },
     {
       "name": "Market Leaders",
-      "target": 5,
-      "weekly": {
+      "target": 6,
+      "weeklyTargets": {
         "1": 6,
-        "2": 11,
-        "3": 15,
-        "4": 7,
+        "2": 6,
+        "3": 6,
+        "4": 6,
         "5": 6,
         "6": 6,
         "7": 6,
@@ -624,17 +519,31 @@
         "13": 6,
         "14": 6
       },
+      "monthlyTargets": {
+        "July": 30,
+        "August": 24,
+        "September": 30
+      },
+      "weekly": {
+        "1": 0,
+        "2": 5,
+        "3": 9,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0
+      },
       "reps": [
         {
           "name": "Brock Morrison",
           "id": "116351",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
             "1": 0,
@@ -656,13 +565,6 @@
         {
           "name": "Chris Wootton",
           "id": "561133",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 5,
           "weekly": {
             "1": 0,
@@ -684,13 +586,6 @@
         {
           "name": "Keaton Mott",
           "id": "561737",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 6,
           "weekly": {
             "1": 0,
@@ -712,13 +607,6 @@
         {
           "name": "KeShawn Ledet",
           "id": "215327",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
             "1": 0,
@@ -736,46 +624,18 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Weekly Target",
-          "id": null,
-          "selfGenSRA": 6,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 84,
-          "weekly": {
-            "1": 6,
-            "2": 6,
-            "3": 6,
-            "4": 6,
-            "5": 6,
-            "6": 6,
-            "7": 6,
-            "8": 6,
-            "9": 6,
-            "10": 6,
-            "11": 6,
-            "12": 6,
-            "13": 6,
-            "14": 6
-          }
         }
       ],
-      "seasonTotal": 99
+      "seasonTotal": 15
     },
     {
       "name": "Helios",
-      "target": 5,
-      "weekly": {
-        "1": 7,
-        "2": 8,
-        "3": 12,
-        "4": 8,
+      "target": 4,
+      "weeklyTargets": {
+        "1": 4,
+        "2": 4,
+        "3": 6,
+        "4": 6,
         "5": 6,
         "6": 6,
         "7": 6,
@@ -787,17 +647,31 @@
         "13": 6,
         "14": 6
       },
+      "monthlyTargets": {
+        "July": 26,
+        "August": 24,
+        "September": 30
+      },
+      "weekly": {
+        "1": 3,
+        "2": 4,
+        "3": 6,
+        "4": 2,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0
+      },
       "reps": [
         {
           "name": "Bronson Young",
           "id": "406763",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 3,
           "weekly": {
             "1": 0,
@@ -819,13 +693,6 @@
         {
           "name": "Ahmad Ashour",
           "id": "564933",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 4,
           "weekly": {
             "1": 1,
@@ -847,13 +714,6 @@
         {
           "name": "Gavin Young",
           "id": "570507",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
             "1": 0,
@@ -875,13 +735,6 @@
         {
           "name": "Kalin Reeves",
           "id": "561311",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 4,
           "weekly": {
             "1": 1,
@@ -903,13 +756,6 @@
         {
           "name": "Zaid Nimri",
           "id": "579832",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 1,
@@ -931,13 +777,6 @@
         {
           "name": "Jordan Clark",
           "id": "566409",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 0,
@@ -955,45 +794,17 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Weekly Target",
-          "id": null,
-          "selfGenSRA": 4,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 80,
-          "weekly": {
-            "1": 4,
-            "2": 4,
-            "3": 6,
-            "4": 6,
-            "5": 6,
-            "6": 6,
-            "7": 6,
-            "8": 6,
-            "9": 6,
-            "10": 6,
-            "11": 6,
-            "12": 6,
-            "13": 6,
-            "14": 6
-          }
         }
       ],
-      "seasonTotal": 95
+      "seasonTotal": 15
     },
     {
       "name": "ASCEND",
-      "target": 5,
-      "weekly": {
-        "1": 8,
-        "2": 6,
-        "3": 8,
+      "target": 4,
+      "weeklyTargets": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
         "4": 4,
         "5": 4,
         "6": 5,
@@ -1006,17 +817,31 @@
         "13": 5,
         "14": 5
       },
+      "monthlyTargets": {
+        "July": 20,
+        "August": 20,
+        "September": 25
+      },
+      "weekly": {
+        "1": 4,
+        "2": 2,
+        "3": 4,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0
+      },
       "reps": [
         {
           "name": "Michael Sarhene",
           "id": "550842",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 3,
           "weekly": {
             "1": 0,
@@ -1038,13 +863,6 @@
         {
           "name": "Adrian Pena",
           "id": "564934",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1066,13 +884,6 @@
         {
           "name": "Matthew Polanco",
           "id": "562596",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 1,
@@ -1094,13 +905,6 @@
         {
           "name": "JJ Joseph",
           "id": "515598",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1122,13 +926,6 @@
         {
           "name": "Lena Burghardt",
           "id": "582289",
-          "selfGenSRA": 3,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 6,
           "weekly": {
             "1": 3,
@@ -1150,13 +947,6 @@
         {
           "name": "Kani Ware",
           "id": "524104",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1174,45 +964,17 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Weekly Target",
-          "id": null,
-          "selfGenSRA": 4,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 65,
-          "weekly": {
-            "1": 4,
-            "2": 4,
-            "3": 4,
-            "4": 4,
-            "5": 4,
-            "6": 5,
-            "7": 5,
-            "8": 5,
-            "9": 5,
-            "10": 5,
-            "11": 5,
-            "12": 5,
-            "13": 5,
-            "14": 5
-          }
         }
       ],
-      "seasonTotal": 75
+      "seasonTotal": 10
     },
     {
       "name": "KiloWatt Kartel",
-      "target": 5,
-      "weekly": {
-        "1": 11,
-        "2": 9,
-        "3": 8,
+      "target": 6,
+      "weeklyTargets": {
+        "1": 6,
+        "2": 6,
+        "3": 6,
         "4": 6,
         "5": 6,
         "6": 6,
@@ -1225,17 +987,31 @@
         "13": 6,
         "14": 6
       },
+      "monthlyTargets": {
+        "July": 30,
+        "August": 24,
+        "September": 30
+      },
+      "weekly": {
+        "1": 5,
+        "2": 3,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0
+      },
       "reps": [
         {
           "name": "Miggz Melgoza",
           "id": "483615",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 4,
           "weekly": {
             "1": 1,
@@ -1257,13 +1033,6 @@
         {
           "name": "Brianna Carrubba",
           "id": "534135",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1285,13 +1054,6 @@
         {
           "name": "Bryan Cowling",
           "id": "534135",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
             "1": 1,
@@ -1313,13 +1075,6 @@
         {
           "name": "Nick Soto",
           "id": "477920",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1341,13 +1096,6 @@
         {
           "name": "Eduardo Atayde",
           "id": "517099",
-          "selfGenSRA": 2,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 3,
           "weekly": {
             "1": 2,
@@ -1369,13 +1117,6 @@
         {
           "name": "Dane Matarese",
           "id": "554332",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1397,13 +1138,6 @@
         {
           "name": "Edward Molina",
           "id": "581166",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1425,13 +1159,6 @@
         {
           "name": "Denise Faber",
           "id": "564957",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 1,
@@ -1449,46 +1176,18 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Weekly Target",
-          "id": null,
-          "selfGenSRA": 6,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 84,
-          "weekly": {
-            "1": 6,
-            "2": 6,
-            "3": 6,
-            "4": 6,
-            "5": 6,
-            "6": 6,
-            "7": 6,
-            "8": 6,
-            "9": 6,
-            "10": 6,
-            "11": 6,
-            "12": 6,
-            "13": 6,
-            "14": 6
-          }
         }
       ],
-      "seasonTotal": 94
+      "seasonTotal": 10
     },
     {
       "name": "CORE",
       "target": 5,
-      "weekly": {
-        "1": 9,
-        "2": 6,
+      "weeklyTargets": {
+        "1": 5,
+        "2": 5,
         "3": 5,
-        "4": 6,
+        "4": 5,
         "5": 5,
         "6": 5,
         "7": 5,
@@ -1500,17 +1199,31 @@
         "13": 5,
         "14": 5
       },
+      "monthlyTargets": {
+        "July": 25,
+        "August": 20,
+        "September": 25
+      },
+      "weekly": {
+        "1": 4,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0
+      },
       "reps": [
         {
           "name": "Katie Boyd",
           "id": "557493",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 1,
@@ -1532,13 +1245,6 @@
         {
           "name": "Joshua Allen",
           "id": "554459",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 1,
@@ -1560,13 +1266,6 @@
         {
           "name": "Justin Kerby",
           "id": "560953",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
             "1": 1,
@@ -1588,13 +1287,6 @@
         {
           "name": "Collin Carter",
           "id": "560953",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 0,
@@ -1616,13 +1308,6 @@
         {
           "name": "Ruben Briones",
           "id": "578328",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 1,
@@ -1644,13 +1329,6 @@
         {
           "name": "Simone Paryente",
           "id": "557380",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1668,45 +1346,17 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Weekly Target",
-          "id": null,
-          "selfGenSRA": 5,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 70,
-          "weekly": {
-            "1": 5,
-            "2": 5,
-            "3": 5,
-            "4": 5,
-            "5": 5,
-            "6": 5,
-            "7": 5,
-            "8": 5,
-            "9": 5,
-            "10": 5,
-            "11": 5,
-            "12": 5,
-            "13": 5,
-            "14": 5
-          }
         }
       ],
-      "seasonTotal": 76
+      "seasonTotal": 6
     },
     {
       "name": "Waco",
       "target": 5,
-      "weekly": {
+      "weeklyTargets": {
         "1": 5,
-        "2": 6,
-        "3": 6,
+        "2": 5,
+        "3": 5,
         "4": 5,
         "5": 5,
         "6": 5,
@@ -1719,17 +1369,31 @@
         "13": 5,
         "14": 5
       },
+      "monthlyTargets": {
+        "July": 25,
+        "August": 20,
+        "September": 25
+      },
+      "weekly": {
+        "1": 0,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0
+      },
       "reps": [
         {
           "name": "Nick Copenbarger",
           "id": "477920",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1751,13 +1415,6 @@
         {
           "name": "Patrick McAllister",
           "id": "574611",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1779,13 +1436,6 @@
         {
           "name": "John Navarro",
           "id": "578776",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1807,13 +1457,6 @@
         {
           "name": "Kyler Gick",
           "id": "582994",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
             "1": 0,
@@ -1831,46 +1474,18 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Weekly Target",
-          "id": null,
-          "selfGenSRA": 5,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 70,
-          "weekly": {
-            "1": 5,
-            "2": 5,
-            "3": 5,
-            "4": 5,
-            "5": 5,
-            "6": 5,
-            "7": 5,
-            "8": 5,
-            "9": 5,
-            "10": 5,
-            "11": 5,
-            "12": 5,
-            "13": 5,
-            "14": 5
-          }
         }
       ],
-      "seasonTotal": 72
+      "seasonTotal": 2
     },
     {
       "name": "Chosen",
-      "target": 5,
-      "weekly": {
-        "1": 13,
-        "2": 8,
-        "3": 10,
-        "4": 7,
+      "target": 6,
+      "weeklyTargets": {
+        "1": 6,
+        "2": 6,
+        "3": 6,
+        "4": 6,
         "5": 6,
         "6": 6,
         "7": 6,
@@ -1882,17 +1497,31 @@
         "13": 6,
         "14": 6
       },
+      "monthlyTargets": {
+        "July": 30,
+        "August": 24,
+        "September": 30
+      },
+      "weekly": {
+        "1": 7,
+        "2": 2,
+        "3": 4,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0
+      },
       "reps": [
         {
           "name": "Stephen Scott",
           "id": "564554",
-          "selfGenSRA": 5,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 11,
           "weekly": {
             "1": 5,
@@ -1914,13 +1543,6 @@
         {
           "name": "Damian Christopherson",
           "id": "577998",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1942,13 +1564,6 @@
         {
           "name": "Liam Christopers",
           "id": null,
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1970,13 +1585,6 @@
         {
           "name": "Joe Donohue",
           "id": null,
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -1998,13 +1606,6 @@
         {
           "name": "Ali Siby",
           "id": "582581",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -2026,13 +1627,6 @@
         {
           "name": "Wesley Mcgirt",
           "id": "582835",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -2054,13 +1648,6 @@
         {
           "name": "Kevin Keeley",
           "id": "582681",
-          "selfGenSRA": 2,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 3,
           "weekly": {
             "1": 2,
@@ -2078,46 +1665,18 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Weekly Target",
-          "id": null,
-          "selfGenSRA": 6,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 84,
-          "weekly": {
-            "1": 6,
-            "2": 6,
-            "3": 6,
-            "4": 6,
-            "5": 6,
-            "6": 6,
-            "7": 6,
-            "8": 6,
-            "9": 6,
-            "10": 6,
-            "11": 6,
-            "12": 6,
-            "13": 6,
-            "14": 6
-          }
         }
       ],
-      "seasonTotal": 98
+      "seasonTotal": 14
     },
     {
       "name": "Blackout",
-      "target": 5,
-      "weekly": {
-        "1": 5,
-        "2": 7,
+      "target": 3,
+      "weeklyTargets": {
+        "1": 3,
+        "2": 3,
         "3": 3,
-        "4": 4,
+        "4": 3,
         "5": 3,
         "6": 3,
         "7": 3,
@@ -2129,17 +1688,31 @@
         "13": 3,
         "14": 3
       },
+      "monthlyTargets": {
+        "July": 15,
+        "August": 12,
+        "September": 15
+      },
+      "weekly": {
+        "1": 2,
+        "2": 4,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0
+      },
       "reps": [
         {
           "name": "Courtney Poole",
           "id": "478922",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 2,
           "weekly": {
             "1": 1,
@@ -2161,13 +1734,6 @@
         {
           "name": "Shasta Fontaine",
           "id": "568374",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 3,
           "weekly": {
             "1": 0,
@@ -2189,13 +1755,6 @@
         {
           "name": "Freddie Damper",
           "id": "542991",
-          "selfGenSRA": 1,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 1,
@@ -2217,13 +1776,6 @@
         {
           "name": "Carson Torre",
           "id": "562472",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 0,
@@ -2245,13 +1797,6 @@
         {
           "name": "Darnell Bailey",
           "id": "542994",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -2269,44 +1814,16 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Weekly Target",
-          "id": null,
-          "selfGenSRA": 3,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 42,
-          "weekly": {
-            "1": 3,
-            "2": 3,
-            "3": 3,
-            "4": 3,
-            "5": 3,
-            "6": 3,
-            "7": 3,
-            "8": 3,
-            "9": 3,
-            "10": 3,
-            "11": 3,
-            "12": 3,
-            "13": 3,
-            "14": 3
-          }
         }
       ],
-      "seasonTotal": 49
+      "seasonTotal": 7
     },
     {
       "name": "Warlord",
-      "target": 5,
-      "weekly": {
+      "target": 4,
+      "weeklyTargets": {
         "1": 4,
-        "2": 5,
+        "2": 4,
         "3": 4,
         "4": 4,
         "5": 4,
@@ -2320,17 +1837,31 @@
         "13": 4,
         "14": 4
       },
+      "monthlyTargets": {
+        "July": 20,
+        "August": 16,
+        "September": 20
+      },
+      "weekly": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0
+      },
       "reps": [
         {
           "name": "David Streeter",
           "id": "561688",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 1,
           "weekly": {
             "1": 0,
@@ -2352,13 +1883,6 @@
         {
           "name": "Samuel Feliciano",
           "id": "555874",
-          "selfGenSRA": 0,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
@@ -2376,37 +1900,9 @@
             "13": 0,
             "14": 0
           }
-        },
-        {
-          "name": "Weekly Target",
-          "id": null,
-          "selfGenSRA": 4,
-          "selfGenCAP": 0,
-          "withAssistSRA": 0,
-          "withAssistCAP": 0,
-          "asAssistSRA": 0,
-          "asAssistCAP": 0,
-          "totalPoints": 0,
-          "totalSRA": 56,
-          "weekly": {
-            "1": 4,
-            "2": 4,
-            "3": 4,
-            "4": 4,
-            "5": 4,
-            "6": 4,
-            "7": 4,
-            "8": 4,
-            "9": 4,
-            "10": 4,
-            "11": 4,
-            "12": 4,
-            "13": 4,
-            "14": 4
-          }
         }
       ],
-      "seasonTotal": 57
+      "seasonTotal": 1
     }
   ]
 }
