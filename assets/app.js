@@ -109,30 +109,33 @@
   // ---------- month helpers (week→month mapping comes straight from the sheet) ----------
   const weekMonth = (d, w) => (d.weekMonths || {})[String(w)] || "";
 
-  // Weeks of a month that have actually happened (w <= currentWeekNo).
-  function weeksInMonth(d, month) {
+  // Weeks of a month up to AND INCLUDING `throughWeek` (defaults to the current week).
+  // Passing the selected week makes the monthly figures rewind with the week toggle.
+  function weeksInMonth(d, month, throughWeek) {
+    const limit = throughWeek || d.currentWeekNo;
     const out = [];
-    for (let w = 1; w <= d.currentWeekNo; w++) if (weekMonth(d, w) === month) out.push(w);
+    for (let w = 1; w <= limit; w++) if (weekMonth(d, w) === month) out.push(w);
     return out;
   }
-  function podMonthSRA(d, pod, month) {
-    return weeksInMonth(d, month).reduce((s, w) => s + podWeeklyValue(pod, w), 0);
+  function podMonthSRA(d, pod, month, throughWeek) {
+    return weeksInMonth(d, month, throughWeek).reduce((s, w) => s + podWeeklyValue(pod, w), 0);
   }
   const podMonthTarget = (pod, month) => num(pod.monthlyTargets && pod.monthlyTargets[month]);
-  function podHitMonth(d, pod, month) {
+  function podHitMonth(d, pod, month, throughWeek) {
     const t = podMonthTarget(pod, month);
-    return t > 0 && podMonthSRA(d, pod, month) >= t;
+    return t > 0 && podMonthSRA(d, pod, month, throughWeek) >= t;
   }
-  function monthsStarted(d) {
+  function monthsStarted(d, throughWeek) {
+    const limit = throughWeek || d.currentWeekNo;
     const seen = [];
-    for (let w = 1; w <= d.currentWeekNo; w++) {
+    for (let w = 1; w <= limit; w++) {
       const m = weekMonth(d, w);
       if (m && seen.indexOf(m) < 0) seen.push(m);
     }
     return seen;
   }
-  function repMonthSRA(d, r, month) {
-    return weeksInMonth(d, month).reduce((s, w) => s + num(r.weekly && r.weekly[String(w)]), 0);
+  function repMonthSRA(d, r, month, throughWeek) {
+    return weeksInMonth(d, month, throughWeek).reduce((s, w) => s + num(r.weekly && r.weekly[String(w)]), 0);
   }
 
   // ---------- progress bar: one segment per SRA, filled as they come in ----------
@@ -333,15 +336,13 @@
     // ----- monthly (month of the selected week, per the sheet) -----
     const month  = weekMonth(d, wk);
     const mTgt   = podMonthTarget(p, month);
-    const mVal   = podMonthSRA(d, p, month);
-    const mPct   = mTgt > 0 ? Math.min(100, Math.round((mVal / mTgt) * 100)) : 0;
+    const mVal   = podMonthSRA(d, p, month, wk);
     const mHit   = mTgt > 0 && mVal >= mTgt;
-    const mLeft  = Math.max(0, mTgt - mVal);
-    const mList  = monthsStarted(d);
-    const mHits  = mList.filter((m) => podHitMonth(d, p, m)).length;
+    const mList  = monthsStarted(d, wk);
+    const mHits  = mList.filter((m) => podHitMonth(d, p, m, wk)).length;
     let mDots = "";
     mList.forEach((m) => {
-      const cls = (podHitMonth(d, p, m) ? " hit" : "") + (m === month ? " cur" : "");
+      const cls = (podHitMonth(d, p, m, wk) ? " hit" : "") + (m === month ? " cur" : "");
       mDots += `<span class="dot${cls}" title="${esc(m)}">${esc(m.slice(0, 3))}</span>`;
     });
 
@@ -408,7 +409,7 @@
     const rows = reps.map((r) => {
       const hl = q && r.name.toLowerCase().includes(q) ? " highlight" : "";
       const sra = repWeekSRA(r, wk);
-      const mtd = month ? repMonthSRA(d, r, month) : 0;
+      const mtd = month ? repMonthSRA(d, r, month, wk) : 0;
       return `<tr class="${hl}">
         <td class="name">${esc(r.name)}</td>
         <td class="sra ${sra >= 1 ? "pos" : "zero"}">${sra}</td>
