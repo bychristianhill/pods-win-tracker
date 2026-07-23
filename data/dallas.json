@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T23:13:32.617Z",
+  "generatedAt": "2026-07-23T00:13:32.579Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -996,7 +996,7 @@
         "1": 5,
         "2": 3,
         "3": 2,
-        "4": 1,
+        "4": 2,
         "5": 0,
         "6": 0,
         "7": 0,
@@ -1159,12 +1159,12 @@
         {
           "name": "Denise Faber",
           "id": "564957",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
             "1": 1,
             "2": 0,
             "3": 0,
-            "4": 0,
+            "4": 1,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -1178,7 +1178,7 @@
           }
         }
       ],
-      "seasonTotal": 11
+      "seasonTotal": 12
     },
     {
       "name": "CORE",
