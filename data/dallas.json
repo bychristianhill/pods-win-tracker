@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T21:13:33.368Z",
+  "generatedAt": "2026-07-23T22:13:36.510Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -230,7 +230,7 @@
         "1": 6,
         "2": 7,
         "3": 5,
-        "4": 5,
+        "4": 6,
         "5": 0,
         "6": 0,
         "7": 0,
@@ -351,12 +351,12 @@
         {
           "name": "Jeremy Chaffee",
           "id": null,
-          "totalSRA": 2,
+          "totalSRA": 3,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
-            "4": 2,
+            "4": 3,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -391,7 +391,7 @@
           }
         }
       ],
-      "seasonTotal": 23
+      "seasonTotal": 24
     },
     {
       "name": "The Culture",
