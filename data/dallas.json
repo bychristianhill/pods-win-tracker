@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T06:13:32.245Z",
+  "generatedAt": "2026-07-25T07:13:31.894Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1208,7 +1208,7 @@
         "1": 3,
         "2": 1,
         "3": 0,
-        "4": 4,
+        "4": 5,
         "5": 0,
         "6": 0,
         "7": 0,
@@ -1224,12 +1224,12 @@
         {
           "name": "Katie Boyd",
           "id": "557493",
-          "totalSRA": 2,
+          "totalSRA": 3,
           "weekly": {
             "1": 1,
             "2": 0,
             "3": 0,
-            "4": 1,
+            "4": 2,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -1348,7 +1348,7 @@
           }
         }
       ],
-      "seasonTotal": 8
+      "seasonTotal": 9
     },
     {
       "name": "Waco",
