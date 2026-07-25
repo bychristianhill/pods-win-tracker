@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T23:13:32.330Z",
+  "generatedAt": "2026-07-25T00:13:38.553Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -528,7 +528,7 @@
         "1": 0,
         "2": 5,
         "3": 9,
-        "4": 6,
+        "4": 7,
         "5": 0,
         "6": 0,
         "7": 0,
@@ -586,12 +586,12 @@
         {
           "name": "Keaton Mott",
           "id": "561737",
-          "totalSRA": 8,
+          "totalSRA": 9,
           "weekly": {
             "1": 0,
             "2": 3,
             "3": 3,
-            "4": 2,
+            "4": 3,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -626,7 +626,7 @@
           }
         }
       ],
-      "seasonTotal": 20
+      "seasonTotal": 21
     },
     {
       "name": "Helios",
