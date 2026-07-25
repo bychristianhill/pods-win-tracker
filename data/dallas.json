@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T01:13:32.058Z",
+  "generatedAt": "2026-07-25T02:13:32.995Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -528,7 +528,7 @@
         "1": 0,
         "2": 5,
         "3": 9,
-        "4": 7,
+        "4": 8,
         "5": 0,
         "6": 0,
         "7": 0,
@@ -544,12 +544,12 @@
         {
           "name": "Brock Morrison",
           "id": "116351",
-          "totalSRA": 2,
+          "totalSRA": 3,
           "weekly": {
             "1": 0,
             "2": 1,
             "3": 0,
-            "4": 1,
+            "4": 2,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -626,7 +626,7 @@
           }
         }
       ],
-      "seasonTotal": 21
+      "seasonTotal": 22
     },
     {
       "name": "Helios",
