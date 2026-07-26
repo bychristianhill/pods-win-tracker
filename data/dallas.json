@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T00:13:31.713Z",
+  "generatedAt": "2026-07-26T01:13:31.676Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -656,7 +656,7 @@
         "1": 3,
         "2": 4,
         "3": 6,
-        "4": 4,
+        "4": 5,
         "5": 0,
         "6": 0,
         "7": 0,
@@ -693,12 +693,12 @@
         {
           "name": "Ahmad Ashour",
           "id": "564933",
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 1,
             "2": 1,
             "3": 0,
-            "4": 3,
+            "4": 4,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -796,7 +796,7 @@
           }
         }
       ],
-      "seasonTotal": 17
+      "seasonTotal": 18
     },
     {
       "name": "ASCEND",
