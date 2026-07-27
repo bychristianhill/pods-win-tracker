@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T03:13:32.465Z",
+  "generatedAt": "2026-07-27T04:13:34.908Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -528,7 +528,7 @@
         "1": 0,
         "2": 5,
         "3": 9,
-        "4": 11,
+        "4": 12,
         "5": 0,
         "6": 0,
         "7": 0,
@@ -607,12 +607,12 @@
         {
           "name": "KeShawn Ledet",
           "id": "215327",
-          "totalSRA": 7,
+          "totalSRA": 8,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 2,
-            "4": 5,
+            "4": 6,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -626,7 +626,7 @@
           }
         }
       ],
-      "seasonTotal": 25
+      "seasonTotal": 26
     },
     {
       "name": "Helios",
