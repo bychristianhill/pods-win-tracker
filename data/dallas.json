@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T21:13:33.656Z",
+  "generatedAt": "2026-07-28T22:13:33.168Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1215,7 +1215,7 @@
         "2": 1,
         "3": 0,
         "4": 6,
-        "5": 0,
+        "5": 1,
         "6": 0,
         "7": 0,
         "8": 0,
@@ -1314,13 +1314,13 @@
         {
           "name": "Ruben Briones",
           "id": "578328",
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 0,
+            "5": 1,
             "6": 0,
             "7": 0,
             "8": 0,
@@ -1354,7 +1354,7 @@
           }
         }
       ],
-      "seasonTotal": 10
+      "seasonTotal": 11
     },
     {
       "name": "Waco",
