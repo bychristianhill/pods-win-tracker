@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T08:13:47.660Z",
+  "generatedAt": "2026-07-28T09:13:32.960Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -237,7 +237,7 @@
         "2": 7,
         "3": 6,
         "4": 8,
-        "5": 0,
+        "5": 1,
         "6": 0,
         "7": 0,
         "8": 0,
@@ -294,13 +294,13 @@
         {
           "name": "Carter Glass",
           "id": "565713",
-          "totalSRA": 3,
+          "totalSRA": 4,
           "weekly": {
             "1": 0,
             "2": 2,
             "3": 0,
             "4": 1,
-            "5": 0,
+            "5": 1,
             "6": 0,
             "7": 0,
             "8": 0,
@@ -397,7 +397,7 @@
           }
         }
       ],
-      "seasonTotal": 27
+      "seasonTotal": 28
     },
     {
       "name": "The Culture",
