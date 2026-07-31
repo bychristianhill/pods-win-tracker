@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T04:13:32.774Z",
+  "generatedAt": "2026-07-31T05:13:32.857Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -237,7 +237,7 @@
         "2": 7,
         "3": 6,
         "4": 8,
-        "5": 3,
+        "5": 5,
         "6": 0,
         "7": 0,
         "8": 0,
@@ -273,13 +273,13 @@
         {
           "name": "Alex Hepworth",
           "id": "566245",
-          "totalSRA": 7,
+          "totalSRA": 8,
           "weekly": {
             "1": 1,
             "2": 2,
             "3": 2,
             "4": 2,
-            "5": 0,
+            "5": 1,
             "6": 0,
             "7": 0,
             "8": 0,
@@ -315,13 +315,13 @@
         {
           "name": "Jonah Sullivan",
           "id": "469804",
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 2,
             "2": 2,
             "3": 1,
             "4": 0,
-            "5": 0,
+            "5": 1,
             "6": 0,
             "7": 0,
             "8": 0,
@@ -397,7 +397,7 @@
           }
         }
       ],
-      "seasonTotal": 30
+      "seasonTotal": 32
     },
     {
       "name": "The Culture",
