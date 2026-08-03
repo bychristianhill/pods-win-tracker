@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T17:13:34.897Z",
+  "generatedAt": "2026-08-03T18:13:36.162Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -90,7 +90,7 @@
         "September": 20
       },
       "weekly": {
-        "1": 0,
+        "1": 2,
         "2": 4,
         "3": 1,
         "4": 2,
@@ -109,9 +109,9 @@
         {
           "name": "Gran Crum",
           "id": "443299",
-          "totalSRA": 3,
+          "totalSRA": 4,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 1,
             "3": 0,
             "4": 2,
@@ -172,9 +172,9 @@
         {
           "name": "Jonathan Bell",
           "id": "543269",
-          "totalSRA": 2,
+          "totalSRA": 3,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 1,
             "3": 0,
             "4": 0,
@@ -212,7 +212,7 @@
           }
         }
       ],
-      "seasonTotal": 10
+      "seasonTotal": 12
     },
     {
       "name": "All Gas No Breaks",
@@ -239,7 +239,7 @@
         "September": 30
       },
       "weekly": {
-        "1": 0,
+        "1": 6,
         "2": 7,
         "3": 6,
         "4": 8,
@@ -258,9 +258,9 @@
         {
           "name": "Tyler Lange",
           "id": "564554",
-          "totalSRA": 6,
+          "totalSRA": 7,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 1,
             "3": 3,
             "4": 1,
@@ -279,9 +279,9 @@
         {
           "name": "Alex Hepworth",
           "id": "566245",
-          "totalSRA": 7,
+          "totalSRA": 8,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 2,
             "3": 2,
             "4": 2,
@@ -321,9 +321,9 @@
         {
           "name": "Jonah Sullivan",
           "id": "469804",
-          "totalSRA": 4,
+          "totalSRA": 6,
           "weekly": {
-            "1": 0,
+            "1": 2,
             "2": 2,
             "3": 1,
             "4": 0,
@@ -342,9 +342,9 @@
         {
           "name": "Logan Parker",
           "id": "469804",
-          "totalSRA": 0,
+          "totalSRA": 2,
           "weekly": {
-            "1": 0,
+            "1": 2,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -403,7 +403,7 @@
           }
         }
       ],
-      "seasonTotal": 27
+      "seasonTotal": 33
     },
     {
       "name": "The Culture",
@@ -430,7 +430,7 @@
         "September": 20
       },
       "weekly": {
-        "1": 0,
+        "1": 4,
         "2": 1,
         "3": 0,
         "4": 4,
@@ -449,9 +449,9 @@
         {
           "name": "Jeremy Ibarra",
           "id": "562596",
-          "totalSRA": 6,
+          "totalSRA": 8,
           "weekly": {
-            "1": 0,
+            "1": 2,
             "2": 1,
             "3": 0,
             "4": 4,
@@ -470,9 +470,9 @@
         {
           "name": "Victor Sandoval",
           "id": "509448",
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -491,9 +491,9 @@
         {
           "name": "Debbie Cabello",
           "id": "536372",
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -510,7 +510,7 @@
           }
         }
       ],
-      "seasonTotal": 6
+      "seasonTotal": 10
     },
     {
       "name": "Market Leaders",
@@ -665,7 +665,7 @@
         "September": 25
       },
       "weekly": {
-        "1": 0,
+        "1": 3,
         "2": 4,
         "3": 6,
         "4": 5,
@@ -705,9 +705,9 @@
         {
           "name": "Ahmad Ashour",
           "id": "564933",
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 1,
             "3": 0,
             "4": 4,
@@ -747,9 +747,9 @@
         {
           "name": "Kalin Reeves",
           "id": "561311",
-          "totalSRA": 4,
+          "totalSRA": 5,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 1,
             "3": 2,
             "4": 0,
@@ -766,11 +766,11 @@
           }
         },
         {
-          "name": "Zaid Nimri",
+          "name": "For Zaid only week 1",
           "id": "579832",
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -808,7 +808,7 @@
           }
         }
       ],
-      "seasonTotal": 20
+      "seasonTotal": 23
     },
     {
       "name": "ASCEND",
@@ -819,23 +819,23 @@
         "3": 4,
         "4": 4,
         "5": 4,
-        "6": 5,
-        "7": 5,
-        "8": 5,
-        "9": 5,
-        "10": 5,
-        "11": 5,
-        "12": 5,
-        "13": 5,
-        "14": 5
+        "6": 4,
+        "7": 4,
+        "8": 4,
+        "9": 4,
+        "10": 4,
+        "11": 4,
+        "12": 4,
+        "13": 4,
+        "14": 4
       },
       "monthlyTargets": {
         "July": 20,
-        "August": 20,
-        "September": 25
+        "August": 16,
+        "September": 20
       },
       "weekly": {
-        "1": 0,
+        "1": 4,
         "2": 2,
         "3": 4,
         "4": 2,
@@ -896,9 +896,9 @@
         {
           "name": "Matthew Polanco",
           "id": "562596",
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -938,9 +938,9 @@
         {
           "name": "Lena Burghardt",
           "id": "582289",
-          "totalSRA": 6,
+          "totalSRA": 9,
           "weekly": {
-            "1": 0,
+            "1": 3,
             "2": 1,
             "3": 2,
             "4": 2,
@@ -978,7 +978,7 @@
           }
         }
       ],
-      "seasonTotal": 11
+      "seasonTotal": 15
     },
     {
       "name": "KiloWatt Kartel",
@@ -1005,7 +1005,7 @@
         "September": 30
       },
       "weekly": {
-        "1": 0,
+        "1": 5,
         "2": 3,
         "3": 2,
         "4": 6,
@@ -1024,9 +1024,9 @@
         {
           "name": "Miggz Melgoza",
           "id": "483615",
-          "totalSRA": 6,
+          "totalSRA": 7,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 1,
             "3": 2,
             "4": 2,
@@ -1066,9 +1066,9 @@
         {
           "name": "Bryan Cowling",
           "id": "534135",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 1,
             "3": 0,
             "4": 0,
@@ -1108,9 +1108,9 @@
         {
           "name": "Eduardo Atayde",
           "id": "517099",
-          "totalSRA": 3,
+          "totalSRA": 5,
           "weekly": {
-            "1": 0,
+            "1": 2,
             "2": 1,
             "3": 0,
             "4": 0,
@@ -1171,9 +1171,9 @@
         {
           "name": "Denise Faber",
           "id": "564957",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 1,
@@ -1190,7 +1190,7 @@
           }
         }
       ],
-      "seasonTotal": 17
+      "seasonTotal": 22
     },
     {
       "name": "CORE",
@@ -1217,7 +1217,7 @@
         "September": 25
       },
       "weekly": {
-        "1": 0,
+        "1": 3,
         "2": 1,
         "3": 0,
         "4": 6,
@@ -1236,9 +1236,9 @@
         {
           "name": "Katie Boyd",
           "id": "557493",
-          "totalSRA": 2,
+          "totalSRA": 3,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 2,
@@ -1257,9 +1257,9 @@
         {
           "name": "Joshua Allen",
           "id": "554459",
-          "totalSRA": 2,
+          "totalSRA": 3,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 2,
@@ -1278,9 +1278,9 @@
         {
           "name": "Justin Kerby",
           "id": "560953",
-          "totalSRA": 2,
+          "totalSRA": 3,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 1,
             "3": 0,
             "4": 1,
@@ -1360,7 +1360,7 @@
           }
         }
       ],
-      "seasonTotal": 9
+      "seasonTotal": 12
     },
     {
       "name": "Waco",
@@ -1515,7 +1515,7 @@
         "September": 30
       },
       "weekly": {
-        "1": 0,
+        "1": 6,
         "2": 2,
         "3": 3,
         "4": 2,
@@ -1534,9 +1534,9 @@
         {
           "name": "Stephen Scott",
           "id": "564554",
-          "totalSRA": 7,
+          "totalSRA": 11,
           "weekly": {
-            "1": 0,
+            "1": 4,
             "2": 2,
             "3": 3,
             "4": 2,
@@ -1660,9 +1660,9 @@
         {
           "name": "Kevin Keeley",
           "id": "582681",
-          "totalSRA": 0,
+          "totalSRA": 2,
           "weekly": {
-            "1": 0,
+            "1": 2,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -1679,7 +1679,7 @@
           }
         }
       ],
-      "seasonTotal": 7
+      "seasonTotal": 13
     },
     {
       "name": "Blackout",
@@ -1706,7 +1706,7 @@
         "September": 15
       },
       "weekly": {
-        "1": 0,
+        "1": 2,
         "2": 4,
         "3": 0,
         "4": 1,
@@ -1725,9 +1725,9 @@
         {
           "name": "Courtney Poole",
           "id": "478922",
-          "totalSRA": 3,
+          "totalSRA": 4,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 1,
             "3": 0,
             "4": 0,
@@ -1767,9 +1767,9 @@
         {
           "name": "Freddie Damper",
           "id": "542991",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -1828,7 +1828,7 @@
           }
         }
       ],
-      "seasonTotal": 8
+      "seasonTotal": 10
     },
     {
       "name": "Warlord",
