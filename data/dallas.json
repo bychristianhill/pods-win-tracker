@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T21:13:33.076Z",
+  "generatedAt": "2026-08-06T22:13:33.234Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -414,7 +414,7 @@
         "3": 4,
         "4": 4,
         "5": 4,
-        "6": 5,
+        "6": 4,
         "7": 4,
         "8": 4,
         "9": 4,
@@ -426,7 +426,7 @@
       },
       "monthlyTargets": {
         "July": 20,
-        "August": 17,
+        "August": 16,
         "September": 20
       },
       "weekly": {
