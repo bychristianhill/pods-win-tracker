@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T10:13:32.793Z",
+  "generatedAt": "2026-08-08T11:13:32.075Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1010,7 +1010,7 @@
         "3": 2,
         "4": 6,
         "5": 6,
-        "6": 6,
+        "6": 7,
         "7": 0,
         "8": 0,
         "9": 0,
@@ -1045,14 +1045,14 @@
         {
           "name": "Brianna Carrubba",
           "id": "534135",
-          "totalSRA": 6,
+          "totalSRA": 7,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 3,
             "5": 1,
-            "6": 2,
+            "6": 3,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -1190,7 +1190,7 @@
           }
         }
       ],
-      "seasonTotal": 28
+      "seasonTotal": 29
     },
     {
       "name": "CORE",
