@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T16:13:32.413Z",
+  "generatedAt": "2026-08-11T17:13:32.064Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -251,7 +251,7 @@
         "4": 9,
         "5": 8,
         "6": 6,
-        "7": 4,
+        "7": 5,
         "8": 0,
         "9": 0,
         "10": 0,
@@ -285,7 +285,7 @@
         {
           "name": "Alex Hepworth",
           "id": "566245",
-          "totalSRA": 8,
+          "totalSRA": 9,
           "weekly": {
             "1": 1,
             "2": 2,
@@ -293,7 +293,7 @@
             "4": 2,
             "5": 1,
             "6": 0,
-            "7": 0,
+            "7": 1,
             "8": 0,
             "9": 0,
             "10": 0,
@@ -472,7 +472,7 @@
           }
         }
       ],
-      "seasonTotal": 46
+      "seasonTotal": 47
     },
     {
       "name": "The Culture",
