@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T17:13:33.796Z",
+  "generatedAt": "2026-08-14T18:13:33.977Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -505,7 +505,7 @@
         "4": 4,
         "5": 1,
         "6": 3,
-        "7": 0,
+        "7": 1,
         "8": 0,
         "9": 0,
         "10": 0,
@@ -539,7 +539,7 @@
         {
           "name": "Victor Sandoval",
           "id": "509448",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
             "1": 1,
             "2": 0,
@@ -547,7 +547,7 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 0,
+            "7": 1,
             "8": 0,
             "9": 0,
             "10": 0,
@@ -558,7 +558,7 @@
           }
         }
       ],
-      "seasonTotal": 12
+      "seasonTotal": 13
     },
     {
       "name": "Market Leaders",
