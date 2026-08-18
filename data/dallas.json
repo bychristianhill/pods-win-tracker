@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T17:13:33.656Z",
+  "generatedAt": "2026-08-18T18:13:35.343Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -258,7 +258,7 @@
         "5": 8,
         "6": 6,
         "7": 10,
-        "8": 1,
+        "8": 2,
         "9": 0,
         "10": 0,
         "11": 0,
@@ -459,7 +459,7 @@
         {
           "name": "Daniel Snow",
           "id": null,
-          "totalSRA": 3,
+          "totalSRA": 4,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -468,7 +468,7 @@
             "5": 0,
             "6": 1,
             "7": 1,
-            "8": 0,
+            "8": 1,
             "9": 0,
             "10": 0,
             "11": 0,
@@ -499,7 +499,7 @@
           }
         }
       ],
-      "seasonTotal": 54
+      "seasonTotal": 55
     },
     {
       "name": "The Culture",
