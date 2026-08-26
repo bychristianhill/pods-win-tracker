@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T11:13:32.746Z",
+  "generatedAt": "2026-08-26T12:13:33.675Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1583,7 +1583,7 @@
         "6": 1,
         "7": 4,
         "8": 2,
-        "9": 0,
+        "9": 1,
         "10": 0,
         "11": 0,
         "12": 0,
@@ -1615,7 +1615,7 @@
         {
           "name": "Damian Christopherson",
           "id": "577998",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -1625,7 +1625,7 @@
             "6": 0,
             "7": 0,
             "8": 1,
-            "9": 0,
+            "9": 1,
             "10": 0,
             "11": 0,
             "12": 0,
@@ -1739,7 +1739,7 @@
           }
         }
       ],
-      "seasonTotal": 20
+      "seasonTotal": 21
     },
     {
       "name": "Blackout",
