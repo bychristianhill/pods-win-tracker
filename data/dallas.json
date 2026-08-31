@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T23:13:32.632Z",
+  "generatedAt": "2026-08-31T00:13:34.177Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -265,7 +265,7 @@
         "6": 7,
         "7": 10,
         "8": 18,
-        "9": 10,
+        "9": 11,
         "10": 0,
         "11": 0,
         "12": 0,
@@ -465,7 +465,7 @@
         {
           "name": "Shiloh Howard",
           "id": null,
-          "totalSRA": 4,
+          "totalSRA": 5,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -475,7 +475,7 @@
             "6": 1,
             "7": 1,
             "8": 1,
-            "9": 0,
+            "9": 1,
             "10": 0,
             "11": 0,
             "12": 0,
@@ -526,7 +526,7 @@
           }
         }
       ],
-      "seasonTotal": 83
+      "seasonTotal": 84
     },
     {
       "name": "The Culture",
