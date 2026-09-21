@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-21T04:13:32.942Z",
+  "generatedAt": "2026-09-21T05:13:32.413Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
-  "currentWeekNo": 12,
+  "currentWeekNo": 13,
   "demo": false,
   "weeks": [
     {
@@ -77,6 +77,12 @@
       "label": "Week 12",
       "start": "2026-09-14",
       "end": "2026-09-20"
+    },
+    {
+      "weekNo": 13,
+      "label": "Week 13",
+      "start": "2026-09-21",
+      "end": "2026-09-27"
     }
   ],
   "weekMonths": {
