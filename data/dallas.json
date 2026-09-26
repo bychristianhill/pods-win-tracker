@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T23:13:32.676Z",
+  "generatedAt": "2026-09-26T00:13:33.462Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -144,7 +144,7 @@
         "10": 5,
         "11": 2,
         "12": 2,
-        "13": 2,
+        "13": 3,
         "14": 0
       },
       "reps": [
@@ -193,7 +193,7 @@
         {
           "name": "Felton Byrd",
           "id": "477287",
-          "totalSRA": 6,
+          "totalSRA": 7,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -207,7 +207,7 @@
             "10": 1,
             "11": 0,
             "12": 0,
-            "13": 1,
+            "13": 2,
             "14": 0
           }
         },
@@ -254,7 +254,7 @@
           }
         }
       ],
-      "seasonTotal": 38
+      "seasonTotal": 39
     },
     {
       "name": "All Gas No Breaks",
