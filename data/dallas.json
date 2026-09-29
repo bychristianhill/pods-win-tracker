@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T23:13:33.270Z",
+  "generatedAt": "2026-09-29T00:13:32.180Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -294,7 +294,7 @@
         "11": 18,
         "12": 6,
         "13": 7,
-        "14": 0
+        "14": 1
       },
       "reps": [
         {
@@ -468,7 +468,7 @@
         {
           "name": "Dan Glass",
           "id": null,
-          "totalSRA": 10,
+          "totalSRA": 11,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -483,7 +483,7 @@
             "11": 3,
             "12": 4,
             "13": 1,
-            "14": 0
+            "14": 1
           }
         },
         {
@@ -550,7 +550,7 @@
           }
         }
       ],
-      "seasonTotal": 124
+      "seasonTotal": 125
     },
     {
       "name": "Market Leaders",
@@ -590,7 +590,7 @@
         "11": 12,
         "12": 2,
         "13": 2,
-        "14": 0
+        "14": 1
       },
       "reps": [
         {
@@ -659,7 +659,7 @@
         {
           "name": "KeShawn Ledet",
           "id": "215327",
-          "totalSRA": 16,
+          "totalSRA": 17,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -674,11 +674,11 @@
             "11": 3,
             "12": 1,
             "13": 1,
-            "14": 0
+            "14": 1
           }
         }
       ],
-      "seasonTotal": 71
+      "seasonTotal": 72
     },
     {
       "name": "Helios",
