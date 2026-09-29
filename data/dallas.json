@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T05:13:34.024Z",
+  "generatedAt": "2026-09-29T06:13:32.093Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -590,7 +590,7 @@
         "11": 12,
         "12": 2,
         "13": 2,
-        "14": 1
+        "14": 2
       },
       "reps": [
         {
@@ -638,7 +638,7 @@
         {
           "name": "Keaton Mott",
           "id": "561737",
-          "totalSRA": 22,
+          "totalSRA": 23,
           "weekly": {
             "1": 0,
             "2": 3,
@@ -653,7 +653,7 @@
             "11": 3,
             "12": 1,
             "13": 0,
-            "14": 0
+            "14": 1
           }
         },
         {
@@ -678,7 +678,7 @@
           }
         }
       ],
-      "seasonTotal": 72
+      "seasonTotal": 73
     },
     {
       "name": "Helios",
@@ -1461,13 +1461,13 @@
         "11": 0,
         "12": 0,
         "13": 1,
-        "14": 0
+        "14": 1
       },
       "reps": [
         {
           "name": "Diego Carrillo",
           "id": null,
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -1482,7 +1482,7 @@
             "11": 0,
             "12": 0,
             "13": 1,
-            "14": 0
+            "14": 1
           }
         },
         {
@@ -1507,7 +1507,7 @@
           }
         }
       ],
-      "seasonTotal": 5
+      "seasonTotal": 6
     },
     {
       "name": "Chosen",
