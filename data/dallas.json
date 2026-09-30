@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T17:13:32.770Z",
+  "generatedAt": "2026-09-30T18:13:32.249Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -705,7 +705,7 @@
         "September": 25
       },
       "weekly": {
-        "1": 5,
+        "1": 4,
         "2": 4,
         "3": 7,
         "4": 9,
@@ -787,9 +787,9 @@
         {
           "name": "Kalin Reeves",
           "id": "561311",
-          "totalSRA": 17,
+          "totalSRA": 16,
           "weekly": {
-            "1": 1,
+            "1": 0,
             "2": 1,
             "3": 2,
             "4": 0,
@@ -848,7 +848,7 @@
           }
         }
       ],
-      "seasonTotal": 76
+      "seasonTotal": 75
     },
     {
       "name": "ASCEND",
