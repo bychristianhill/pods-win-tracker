@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T11:13:32.824Z",
+  "generatedAt": "2026-10-01T12:13:32.529Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -705,7 +705,7 @@
         "September": 25
       },
       "weekly": {
-        "1": 5,
+        "1": 4,
         "2": 4,
         "3": 7,
         "4": 9,
@@ -787,9 +787,9 @@
         {
           "name": "Kalin Reeves",
           "id": "561311",
-          "totalSRA": 18,
+          "totalSRA": 17,
           "weekly": {
-            "1": 1,
+            "1": 0,
             "2": 1,
             "3": 2,
             "4": 0,
@@ -848,7 +848,7 @@
           }
         }
       ],
-      "seasonTotal": 77
+      "seasonTotal": 76
     },
     {
       "name": "ASCEND",
@@ -1553,9 +1553,9 @@
         {
           "name": "Stephen Scott",
           "id": "564554",
-          "totalSRA": 19,
+          "totalSRA": 18,
           "weekly": {
-            "1": 4,
+            "1": 3,
             "2": 2,
             "3": 3,
             "4": 2,
