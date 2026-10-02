@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T05:13:33.176Z",
+  "generatedAt": "2026-10-02T06:13:32.987Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -214,9 +214,9 @@
         {
           "name": "Jonathan Bell",
           "id": "543269",
-          "totalSRA": 8,
+          "totalSRA": 7,
           "weekly": {
-            "1": 1,
+            "1": 0,
             "2": 1,
             "3": 0,
             "4": 0,
@@ -281,7 +281,7 @@
         "September": 60
       },
       "weekly": {
-        "1": 5,
+        "1": 3,
         "2": 8,
         "3": 6,
         "4": 10,
@@ -294,7 +294,7 @@
         "11": 18,
         "12": 6,
         "13": 7,
-        "14": 2
+        "14": 3
       },
       "reps": [
         {
@@ -321,9 +321,9 @@
         {
           "name": "Alex Hepworth",
           "id": "566245",
-          "totalSRA": 12,
+          "totalSRA": 11,
           "weekly": {
-            "1": 1,
+            "1": 0,
             "2": 2,
             "3": 2,
             "4": 2,
@@ -363,9 +363,9 @@
         {
           "name": "Jonah Sullivan",
           "id": "469804",
-          "totalSRA": 12,
+          "totalSRA": 11,
           "weekly": {
-            "1": 2,
+            "1": 1,
             "2": 2,
             "3": 1,
             "4": 0,
@@ -447,7 +447,7 @@
         {
           "name": "Carson Torre",
           "id": null,
-          "totalSRA": 17,
+          "totalSRA": 18,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -462,7 +462,7 @@
             "11": 8,
             "12": 0,
             "13": 0,
-            "14": 0
+            "14": 1
           }
         },
         {
@@ -550,7 +550,7 @@
           }
         }
       ],
-      "seasonTotal": 125
+      "seasonTotal": 124
     },
     {
       "name": "Market Leaders",
@@ -590,13 +590,13 @@
         "11": 12,
         "12": 2,
         "13": 2,
-        "14": 7
+        "14": 8
       },
       "reps": [
         {
           "name": "Brock Morrison",
           "id": "116351",
-          "totalSRA": 12,
+          "totalSRA": 13,
           "weekly": {
             "1": 0,
             "2": 1,
@@ -611,7 +611,7 @@
             "11": 4,
             "12": 0,
             "13": 1,
-            "14": 1
+            "14": 2
           }
         },
         {
@@ -678,7 +678,7 @@
           }
         }
       ],
-      "seasonTotal": 78
+      "seasonTotal": 79
     },
     {
       "name": "Helios",
@@ -875,7 +875,7 @@
         "September": 20
       },
       "weekly": {
-        "1": 4,
+        "1": 3,
         "2": 2,
         "3": 4,
         "4": 2,
@@ -978,9 +978,9 @@
         {
           "name": "Lena Burghardt",
           "id": "582289",
-          "totalSRA": 26,
+          "totalSRA": 25,
           "weekly": {
-            "1": 3,
+            "1": 2,
             "2": 1,
             "3": 2,
             "4": 2,
@@ -997,7 +997,7 @@
           }
         }
       ],
-      "seasonTotal": 41
+      "seasonTotal": 40
     },
     {
       "name": "KiloWatt Kartel",
@@ -1318,9 +1318,9 @@
         {
           "name": "Joshua Allen",
           "id": "554459",
-          "totalSRA": 7,
+          "totalSRA": 6,
           "weekly": {
-            "1": 1,
+            "1": 0,
             "2": 0,
             "3": 0,
             "4": 2,
@@ -1553,9 +1553,9 @@
         {
           "name": "Stephen Scott",
           "id": "564554",
-          "totalSRA": 18,
+          "totalSRA": 17,
           "weekly": {
-            "1": 3,
+            "1": 2,
             "2": 2,
             "3": 3,
             "4": 2,
