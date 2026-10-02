@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T11:13:35.682Z",
+  "generatedAt": "2026-10-02T12:13:32.468Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -214,9 +214,9 @@
         {
           "name": "Jonathan Bell",
           "id": "543269",
-          "totalSRA": 7,
+          "totalSRA": 8,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 1,
             "3": 0,
             "4": 0,
@@ -281,7 +281,7 @@
         "September": 60
       },
       "weekly": {
-        "1": 3,
+        "1": 5,
         "2": 8,
         "3": 6,
         "4": 10,
@@ -321,9 +321,9 @@
         {
           "name": "Alex Hepworth",
           "id": "566245",
-          "totalSRA": 11,
+          "totalSRA": 12,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 2,
             "3": 2,
             "4": 2,
@@ -384,9 +384,9 @@
         {
           "name": "Logan Parker",
           "id": "469804",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
-            "1": 1,
+            "1": 2,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -550,7 +550,7 @@
           }
         }
       ],
-      "seasonTotal": 124
+      "seasonTotal": 126
     },
     {
       "name": "Market Leaders",
@@ -875,7 +875,7 @@
         "September": 20
       },
       "weekly": {
-        "1": 3,
+        "1": 4,
         "2": 2,
         "3": 4,
         "4": 2,
@@ -978,9 +978,9 @@
         {
           "name": "Lena Burghardt",
           "id": "582289",
-          "totalSRA": 25,
+          "totalSRA": 26,
           "weekly": {
-            "1": 2,
+            "1": 3,
             "2": 1,
             "3": 2,
             "4": 2,
@@ -997,7 +997,7 @@
           }
         }
       ],
-      "seasonTotal": 40
+      "seasonTotal": 41
     },
     {
       "name": "KiloWatt Kartel",
@@ -1318,9 +1318,9 @@
         {
           "name": "Joshua Allen",
           "id": "554459",
-          "totalSRA": 6,
+          "totalSRA": 7,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 2,
