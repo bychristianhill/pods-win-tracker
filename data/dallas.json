@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T05:13:32.621Z",
+  "generatedAt": "2026-10-03T06:13:31.657Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -214,9 +214,9 @@
         {
           "name": "Jonathan Bell",
           "id": "543269",
-          "totalSRA": 8,
+          "totalSRA": 7,
           "weekly": {
-            "1": 1,
+            "1": 0,
             "2": 1,
             "3": 0,
             "4": 0,
@@ -281,7 +281,7 @@
         "September": 60
       },
       "weekly": {
-        "1": 5,
+        "1": 3,
         "2": 8,
         "3": 6,
         "4": 10,
@@ -321,9 +321,9 @@
         {
           "name": "Alex Hepworth",
           "id": "566245",
-          "totalSRA": 12,
+          "totalSRA": 11,
           "weekly": {
-            "1": 1,
+            "1": 0,
             "2": 2,
             "3": 2,
             "4": 2,
@@ -363,9 +363,9 @@
         {
           "name": "Jonah Sullivan",
           "id": "469804",
-          "totalSRA": 12,
+          "totalSRA": 11,
           "weekly": {
-            "1": 2,
+            "1": 1,
             "2": 2,
             "3": 1,
             "4": 0,
@@ -550,7 +550,7 @@
           }
         }
       ],
-      "seasonTotal": 127
+      "seasonTotal": 125
     },
     {
       "name": "Market Leaders",
@@ -718,7 +718,7 @@
         "11": 7,
         "12": 5,
         "13": 4,
-        "14": 2
+        "14": 3
       },
       "reps": [
         {
@@ -745,7 +745,7 @@
         {
           "name": "Ahmad Ashour",
           "id": "564933",
-          "totalSRA": 17,
+          "totalSRA": 18,
           "weekly": {
             "1": 1,
             "2": 1,
@@ -760,7 +760,7 @@
             "11": 3,
             "12": 0,
             "13": 0,
-            "14": 0
+            "14": 1
           }
         },
         {
@@ -848,7 +848,7 @@
           }
         }
       ],
-      "seasonTotal": 76
+      "seasonTotal": 77
     },
     {
       "name": "ASCEND",
@@ -875,7 +875,7 @@
         "September": 20
       },
       "weekly": {
-        "1": 4,
+        "1": 3,
         "2": 2,
         "3": 4,
         "4": 2,
@@ -978,9 +978,9 @@
         {
           "name": "Lena Burghardt",
           "id": "582289",
-          "totalSRA": 26,
+          "totalSRA": 25,
           "weekly": {
-            "1": 3,
+            "1": 2,
             "2": 1,
             "3": 2,
             "4": 2,
@@ -997,7 +997,7 @@
           }
         }
       ],
-      "seasonTotal": 41
+      "seasonTotal": 40
     },
     {
       "name": "KiloWatt Kartel",
