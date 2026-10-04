@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T05:13:32.672Z",
+  "generatedAt": "2026-10-04T06:13:32.399Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -145,7 +145,7 @@
         "11": 2,
         "12": 2,
         "13": 3,
-        "14": 2
+        "14": 3
       },
       "reps": [
         {
@@ -172,7 +172,7 @@
         {
           "name": "Marcos Cano Fernandez",
           "id": "212374",
-          "totalSRA": 10,
+          "totalSRA": 11,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -187,7 +187,7 @@
             "11": 1,
             "12": 2,
             "13": 1,
-            "14": 1
+            "14": 2
           }
         },
         {
@@ -254,7 +254,7 @@
           }
         }
       ],
-      "seasonTotal": 41
+      "seasonTotal": 42
     },
     {
       "name": "All Gas No Breaks",
