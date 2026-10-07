@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T05:13:32.807Z",
+  "generatedAt": "2026-10-07T06:13:34.311Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -705,7 +705,7 @@
         "September": 25
       },
       "weekly": {
-        "1": 4,
+        "1": 3,
         "2": 4,
         "3": 7,
         "4": 9,
@@ -829,9 +829,9 @@
         {
           "name": "Jeremy Ibarra",
           "id": "566409",
-          "totalSRA": 18,
+          "totalSRA": 17,
           "weekly": {
-            "1": 2,
+            "1": 1,
             "2": 1,
             "3": 0,
             "4": 4,
@@ -848,7 +848,7 @@
           }
         }
       ],
-      "seasonTotal": 77
+      "seasonTotal": 76
     },
     {
       "name": "ASCEND",
@@ -1297,9 +1297,9 @@
         {
           "name": "Katie Boyd",
           "id": "557493",
-          "totalSRA": 7,
+          "totalSRA": 6,
           "weekly": {
-            "1": 1,
+            "1": 0,
             "2": 0,
             "3": 0,
             "4": 2,
