@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T05:13:38.435Z",
+  "generatedAt": "2026-10-10T06:13:32.841Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -282,7 +282,7 @@
       },
       "weekly": {
         "1": 0,
-        "2": 7,
+        "2": 8,
         "3": 6,
         "4": 10,
         "5": 8,
@@ -342,10 +342,10 @@
         {
           "name": "Carter Glass",
           "id": "565713",
-          "totalSRA": 13,
+          "totalSRA": 14,
           "weekly": {
             "1": 0,
-            "2": 1,
+            "2": 2,
             "3": 0,
             "4": 1,
             "5": 3,
@@ -550,7 +550,7 @@
           }
         }
       ],
-      "seasonTotal": 120
+      "seasonTotal": 121
     },
     {
       "name": "Market Leaders",
@@ -876,7 +876,7 @@
       },
       "weekly": {
         "1": 0,
-        "2": 2,
+        "2": 1,
         "3": 4,
         "4": 2,
         "5": 2,
@@ -894,10 +894,10 @@
         {
           "name": "Michael Sarhene",
           "id": "550842",
-          "totalSRA": 8,
+          "totalSRA": 7,
           "weekly": {
             "1": 0,
-            "2": 1,
+            "2": 0,
             "3": 2,
             "4": 0,
             "5": 1,
@@ -997,7 +997,7 @@
           }
         }
       ],
-      "seasonTotal": 37
+      "seasonTotal": 36
     },
     {
       "name": "KiloWatt Kartel",
