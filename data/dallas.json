@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:13:35.732Z",
+  "generatedAt": "2026-10-10T12:13:34.566Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -282,7 +282,7 @@
       },
       "weekly": {
         "1": 0,
-        "2": 8,
+        "2": 7,
         "3": 6,
         "4": 10,
         "5": 8,
@@ -342,10 +342,10 @@
         {
           "name": "Carter Glass",
           "id": "565713",
-          "totalSRA": 14,
+          "totalSRA": 13,
           "weekly": {
             "1": 0,
-            "2": 2,
+            "2": 1,
             "3": 0,
             "4": 1,
             "5": 3,
@@ -550,7 +550,7 @@
           }
         }
       ],
-      "seasonTotal": 121
+      "seasonTotal": 120
     },
     {
       "name": "Market Leaders",
@@ -829,10 +829,10 @@
         {
           "name": "Jeremy Ibarra",
           "id": "566409",
-          "totalSRA": 16,
+          "totalSRA": 15,
           "weekly": {
             "1": 0,
-            "2": 1,
+            "2": 0,
             "3": 0,
             "4": 4,
             "5": 1,
