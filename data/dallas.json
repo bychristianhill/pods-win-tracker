@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:13:32.792Z",
+  "generatedAt": "2026-10-10T18:13:32.975Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -829,10 +829,10 @@
         {
           "name": "Jeremy Ibarra",
           "id": "566409",
-          "totalSRA": 15,
+          "totalSRA": 16,
           "weekly": {
             "1": 0,
-            "2": 0,
+            "2": 1,
             "3": 0,
             "4": 4,
             "5": 1,
