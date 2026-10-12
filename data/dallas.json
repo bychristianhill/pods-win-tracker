@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T11:14:45.700Z",
+  "generatedAt": "2026-10-12T12:13:32.598Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -321,10 +321,10 @@
         {
           "name": "Alex Hepworth",
           "id": "566245",
-          "totalSRA": 11,
+          "totalSRA": 10,
           "weekly": {
             "1": 0,
-            "2": 2,
+            "2": 1,
             "3": 2,
             "4": 2,
             "5": 1,
@@ -531,10 +531,10 @@
         {
           "name": "David Streeter",
           "id": null,
-          "totalSRA": 3,
+          "totalSRA": 4,
           "weekly": {
             "1": 0,
-            "2": 0,
+            "2": 1,
             "3": 0,
             "4": 0,
             "5": 0,
