@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>October Incentive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #1E1B18;          /* Ranch Black */
+    --panel: #282420;
+    --panel-2: #312c27;
+    --line: #3d362f;
+    --text: #F2EAD8;        /* Bone Cream */
+    --muted: #a99f8c;
+    --gold: #E8B84B;        /* Harvest Gold */
+    --silver: #C9C3B6;
+    --bronze: #9C6B3C;      /* Mesa Brown */
+    --adobe: #8B3A2A;       /* Burnt Adobe */
+    --red: #D90000;         /* Red Hot */
+    --green: #6F9A3E;       /* cactus */
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.45 Inter, system-ui, sans-serif;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 28px 16px 60px; }
+  header { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 24px; }
+  h1 { font: 400 clamp(36px, 7vw, 60px)/1 Anton, Impact, sans-serif; letter-spacing: .02em; margin: 0; text-transform: uppercase; }
+  h1 span { color: var(--gold); }
+  .sub { color: var(--muted); font-size: 13px; margin-top: 6px; }
+  .updated { color: var(--muted); font-size: 12px; text-align: right; }
+  .updated b { color: var(--text); font-weight: 600; }
+
+  /* Podium */
+  .podium { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 28px; }
+  .pod { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; position: relative; overflow: hidden; }
+  .pod::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 4px; background: var(--c); }
+  .pod .place { font: 400 14px Anton, sans-serif; letter-spacing: .08em; color: var(--c); text-transform: uppercase; }
+  .pod .name { font: 400 28px/1.1 Anton, sans-serif; margin: 6px 0 2px; text-transform: uppercase; }
+  .pod .pts { font-size: 32px; font-weight: 700; color: var(--text); }
+  .pod .pts small { font-size: 13px; color: var(--muted); font-weight: 500; margin-left: 4px; }
+  .pod .mvp { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  .pod .mvp b { color: var(--text); font-weight: 600; }
+  .p1 { --c: var(--gold); } .p2 { --c: var(--silver); } .p3 { --c: var(--bronze); }
+
+  /* Standings */
+  h2 { font: 400 22px Anton, sans-serif; letter-spacing: .04em; text-transform: uppercase; margin: 0 0 12px; }
+  .teams { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+  .team { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .team-head { display: grid; grid-template-columns: 44px 1fr auto; align-items: center; gap: 10px; padding: 14px 16px 10px; }
+  .rank { font: 400 26px Anton, sans-serif; color: var(--muted); text-align: center; }
+  .team.r1 .rank { color: var(--gold); } .team.r2 .rank { color: var(--silver); } .team.r3 .rank { color: var(--bronze); }
+  .team-name { font: 400 22px Anton, sans-serif; text-transform: uppercase; letter-spacing: .03em; }
+  .team-total { font-size: 24px; font-weight: 700; text-align: right; line-height: 1; }
+  .team-total small { display: block; font-size: 11px; color: var(--muted); font-weight: 500; text-transform: uppercase; letter-spacing: .06em; margin-top: 3px; }
+  .bar { height: 6px; background: var(--panel-2); margin: 0 16px 10px; border-radius: 3px; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--gold); border-radius: 3px; }
+  .team:not(.r1) .bar i { background: var(--adobe); }
+  ul { list-style: none; margin: 0; padding: 0 0 6px; }
+  li { display: flex; justify-content: space-between; gap: 12px; padding: 7px 16px; border-top: 1px solid var(--line); font-size: 14px; }
+  li .pts { font-weight: 700; font-variant-numeric: tabular-nums; }
+  li .pts.zero { color: var(--muted); font-weight: 500; }
+  li.top .who::after { content: "MVP"; font-size: 10px; font-weight: 700; letter-spacing: .06em; color: var(--bg); background: var(--gold); border-radius: 4px; padding: 1px 5px; margin-left: 8px; vertical-align: 1px; }
+
+  .note { margin-top: 18px; color: var(--muted); font-size: 12px; }
+  .err { color: var(--red); }
+
+  @media (max-width: 720px) {
+    .podium { grid-template-columns: 1fr; }
+    .teams { grid-template-columns: 1fr; }
+    .updated { text-align: left; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>October <span>Incentive</span></h1>
+      <div class="sub">Teams ranked by total incentive points</div>
+    </div>
+    <div class="updated" id="updated"></div>
+  </header>
+
+  <section class="podium" id="podium"></section>
+
+  <h2>Standings</h2>
+  <section class="teams" id="teams"></section>
+
+  <div class="note" id="note"></div>
+</div>
+
+<script>
+  // Paste the Apps Script web-app /exec URL here to go live. Leave empty to use SNAPSHOT.
+  const DATA_URL = '';
+  const REFRESH_MS = 5 * 60 * 1000;
+
+  // Snapshot of the "October incentive" tab, pulled 2026-10-14. Used until DATA_URL is set.
+  const SNAPSHOT = {
+    updated: '2026-10-14T12:00:00-05:00',
+    teams: [
+      { team: 'Team 1', reps: [['Tyler Lange',0],['David Streeter',0],['David Galdamez',0],['Justin Kerby',0],['Jeremy Chaffee',0]] },
+      { team: 'Team 2', reps: [['Stephen Scott',0],['Ahmad Ashour',0],['Joshua Allen',0],['Damian Christopherson',0],['Dallan Glass',10]] },
+      { team: 'Team 3', reps: [['Brianna Carrubba',10],['Daniel Snow',6],['Victor Sandoval',0],['Felton Byrd',0],['Jonathan Bell',0],['Hagan Harrison',0]] },
+      { team: 'Team 4', reps: [['Migzz Melgoza',0],['Bryan Cowling',0],['Landon Lacik',4],['Denise Faber',0],['Anthony Acosta',0]] },
+      { team: 'Team 5', reps: [['Justin Mott',0],['Katie Boyd',6],['Nebiat Tesfay',0],['Dan Glass',0],['Addison Nichols',0]] },
+      { team: 'Team 6', reps: [['Kalin Reeves',0],['Gran Crum',2],['Marcos Cano Fernandez',12],['Diego Carrillo',0],['Matthew Butcher',0]] },
+      { team: 'Team 7', reps: [['Michael Sarehne',0],['Matthew Polanco',4],['Lena Burghardt',0],['Jonah Sullivan',0],['Chris Lopez',0],['Oscar Marines',0]] },
+      { team: 'Team 8', reps: [['Courtney Poole',0],['Freddie Damper',0],['Carson Torre',10],['Shane Lessley',6],['Clark Jensen',6]] },
+      { team: 'Team 9', reps: [['Jeremy Ibarra',0],['Eduardo Atayde',0],['Carter Glass',0],['Alex Hepworth',0],['Jeremiah Williams',0],['Krystal Peters',0]] },
+      { team: 'Team 10', reps: [['Kevin Keeley',0],['Quinton Donohoe',0],['Daniel Meyer',0],['Dane Matarese',0],['Seth Monsevalles',12],['Elias Linton',0]] },
+      { team: 'Team 11', reps: [['Logan Parker',0],['Luc Fadness',0],['Christian Selk',0],['Timothy Simpson',0],['Blake Rowe',0]] },
+    ].map(t => ({ team: t.team, reps: t.reps.map(([name, points]) => ({ name, points })) })),
+  };
+
+  const fmt = n => Number.isInteger(n) ? String(n) : n.toFixed(1);
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  // Competition ranking: ties share a rank (1, 2, 2, 4).
+  function rankTeams(data) {
+    const teams = data.teams.map(t => {
+      const reps = t.reps.map(r => ({ name: r.name.trim(), points: +r.points || 0 }))
+                         .sort((a, b) => b.points - a.points || a.name.localeCompare(b.name));
+      return { name: t.team.trim(), reps, total: reps.reduce((s, r) => s + r.points, 0) };
+    }).sort((a, b) => b.total - a.total || a.name.localeCompare(b.name, undefined, { numeric: true }));
+    teams.forEach((t, i) => { t.rank = i && t.total === teams[i - 1].total ? teams[i - 1].rank : i + 1; });
+    return teams;
+  }
+
+  function render(data, live) {
+    const teams = rankTeams(data);
+    const max = Math.max(1, ...teams.map(t => t.total));
+    const place = ['1st', '2nd', '3rd'];
+
+    document.getElementById('podium').innerHTML = teams.slice(0, 3).map((t, i) => {
+      const mvp = t.reps[0] && t.reps[0].points > 0 ? `MVP <b>${esc(t.reps[0].name)}</b> · ${fmt(t.reps[0].points)} pts` : 'No points yet';
+      return `<div class="pod p${t.rank}">
+        <div class="place">${place[t.rank - 1] || t.rank + 'th'} place</div>
+        <div class="name">${esc(t.name)}</div>
+        <div class="pts">${fmt(t.total)}<small>pts</small></div>
+        <div class="mvp">${mvp}</div>
+      </div>`;
+    }).join('');
+
+    document.getElementById('teams').innerHTML = teams.map(t => `
+      <article class="team r${t.rank}">
+        <div class="team-head">
+          <div class="rank">${t.rank}</div>
+          <div class="team-name">${esc(t.name)}</div>
+          <div class="team-total">${fmt(t.total)}<small>points</small></div>
+        </div>
+        <div class="bar"><i style="width:${(t.total / max) * 100}%"></i></div>
+        <ul>${t.reps.map((r, i) => `
+          <li class="${i === 0 && r.points > 0 ? 'top' : ''}">
+            <span class="who">${esc(r.name)}</span>
+            <span class="pts ${r.points ? '' : 'zero'}">${fmt(r.points)}</span>
+          </li>`).join('')}
+        </ul>
+      </article>`).join('');
+
+    const when = new Date(data.updated);
+    document.getElementById('updated').innerHTML =
+      `${live ? 'Live' : 'Snapshot'} · updated <b>${when.toLocaleString([], { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })}</b>`;
+  }
+
+  async function load() {
+    if (!DATA_URL) return render(SNAPSHOT, false);
+    try {
+      const res = await fetch(DATA_URL, { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      render(await res.json(), true);
+      document.getElementById('note').textContent = '';
+    } catch (e) {
+      if (!document.getElementById('teams').children.length) render(SNAPSHOT, false);
+      document.getElementById('note').innerHTML = `<span class="err">Couldn't reach the sheet (${esc(e.message)}). Showing last data.</span>`;
+    }
+  }
+
+  load();
+  if (DATA_URL) setInterval(load, REFRESH_MS);
+</script>
+</body>
+</html>
