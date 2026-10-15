@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T17:13:34.120Z",
+  "generatedAt": "2026-10-15T18:13:37.512Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -133,7 +133,7 @@
       },
       "weekly": {
         "1": 3,
-        "2": 2,
+        "2": 1,
         "3": 2,
         "4": 2,
         "5": 3,
@@ -235,10 +235,10 @@
         {
           "name": "Nebiat Tesfay",
           "id": "581199",
-          "totalSRA": 6,
+          "totalSRA": 5,
           "weekly": {
             "1": 0,
-            "2": 2,
+            "2": 1,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -254,7 +254,7 @@
           }
         }
       ],
-      "seasonTotal": 40
+      "seasonTotal": 39
     },
     {
       "name": "All Gas No Breaks",
@@ -282,7 +282,7 @@
       },
       "weekly": {
         "1": 0,
-        "2": 2,
+        "2": 1,
         "3": 6,
         "4": 12,
         "5": 8,
@@ -321,10 +321,10 @@
         {
           "name": "Alex Hepworth",
           "id": "566245",
-          "totalSRA": 10,
+          "totalSRA": 9,
           "weekly": {
             "1": 0,
-            "2": 1,
+            "2": 0,
             "3": 2,
             "4": 2,
             "5": 1,
@@ -571,7 +571,7 @@
           }
         }
       ],
-      "seasonTotal": 121
+      "seasonTotal": 120
     },
     {
       "name": "Market Leaders",
@@ -599,7 +599,7 @@
       },
       "weekly": {
         "1": 0,
-        "2": 2,
+        "2": 3,
         "3": 9,
         "4": 12,
         "5": 2,
@@ -659,10 +659,10 @@
         {
           "name": "Keaton Mott",
           "id": "561737",
-          "totalSRA": 22,
+          "totalSRA": 23,
           "weekly": {
             "1": 0,
-            "2": 1,
+            "2": 2,
             "3": 3,
             "4": 3,
             "5": 0,
@@ -699,7 +699,7 @@
           }
         }
       ],
-      "seasonTotal": 77
+      "seasonTotal": 78
     },
     {
       "name": "Helios",
