@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T05:13:32.719Z",
+  "generatedAt": "2026-10-16T06:13:38.237Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -282,7 +282,7 @@
       },
       "weekly": {
         "1": 0,
-        "2": 1,
+        "2": 0,
         "3": 6,
         "4": 12,
         "5": 8,
@@ -321,10 +321,10 @@
         {
           "name": "Alex Hepworth",
           "id": "566245",
-          "totalSRA": 10,
+          "totalSRA": 9,
           "weekly": {
             "1": 0,
-            "2": 1,
+            "2": 0,
             "3": 2,
             "4": 2,
             "5": 1,
@@ -571,7 +571,7 @@
           }
         }
       ],
-      "seasonTotal": 120
+      "seasonTotal": 119
     },
     {
       "name": "Market Leaders",
