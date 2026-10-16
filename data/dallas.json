@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T23:13:32.858Z",
+  "generatedAt": "2026-10-16T00:13:33.088Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -321,10 +321,10 @@
         {
           "name": "Alex Hepworth",
           "id": "566245",
-          "totalSRA": 9,
+          "totalSRA": 10,
           "weekly": {
             "1": 0,
-            "2": 0,
+            "2": 1,
             "3": 2,
             "4": 2,
             "5": 1,
@@ -363,10 +363,10 @@
         {
           "name": "Jonah Sullivan",
           "id": "469804",
-          "totalSRA": 9,
+          "totalSRA": 8,
           "weekly": {
             "1": 0,
-            "2": 1,
+            "2": 0,
             "3": 1,
             "4": 0,
             "5": 1,
@@ -599,7 +599,7 @@
       },
       "weekly": {
         "1": 0,
-        "2": 3,
+        "2": 2,
         "3": 9,
         "4": 12,
         "5": 2,
@@ -659,10 +659,10 @@
         {
           "name": "Keaton Mott",
           "id": "561737",
-          "totalSRA": 23,
+          "totalSRA": 22,
           "weekly": {
             "1": 0,
-            "2": 2,
+            "2": 1,
             "3": 3,
             "4": 3,
             "5": 0,
@@ -699,7 +699,7 @@
           }
         }
       ],
-      "seasonTotal": 78
+      "seasonTotal": 77
     },
     {
       "name": "Helios",
