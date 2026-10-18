@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T23:13:32.804Z",
+  "generatedAt": "2026-10-18T00:13:33.030Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -599,7 +599,7 @@
       },
       "weekly": {
         "1": 0,
-        "2": 1,
+        "2": 0,
         "3": 9,
         "4": 12,
         "5": 2,
@@ -638,10 +638,10 @@
         {
           "name": "Chris Wootton",
           "id": "561133",
-          "totalSRA": 24,
+          "totalSRA": 23,
           "weekly": {
             "1": 0,
-            "2": 1,
+            "2": 0,
             "3": 4,
             "4": 1,
             "5": 2,
@@ -699,7 +699,7 @@
           }
         }
       ],
-      "seasonTotal": 76
+      "seasonTotal": 75
     },
     {
       "name": "Helios",
