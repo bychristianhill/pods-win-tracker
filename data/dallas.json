@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T17:13:33.236Z",
+  "generatedAt": "2026-10-18T18:13:33.370Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -600,7 +600,7 @@
       "weekly": {
         "1": 0,
         "2": 0,
-        "3": 8,
+        "3": 9,
         "4": 12,
         "5": 2,
         "6": 3,
@@ -638,11 +638,11 @@
         {
           "name": "Chris Wootton",
           "id": "561133",
-          "totalSRA": 22,
+          "totalSRA": 23,
           "weekly": {
             "1": 0,
             "2": 0,
-            "3": 3,
+            "3": 4,
             "4": 1,
             "5": 2,
             "6": 2,
@@ -699,7 +699,7 @@
           }
         }
       ],
-      "seasonTotal": 74
+      "seasonTotal": 75
     },
     {
       "name": "Helios",
@@ -745,11 +745,11 @@
         {
           "name": "Bronson Young",
           "id": "406763",
-          "totalSRA": 4,
+          "totalSRA": 5,
           "weekly": {
             "1": 0,
             "2": 1,
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 1,
             "6": 0,
@@ -898,7 +898,7 @@
       "weekly": {
         "1": 0,
         "2": 0,
-        "3": 4,
+        "3": 3,
         "4": 2,
         "5": 2,
         "6": 3,
@@ -915,11 +915,11 @@
         {
           "name": "Michael Sarhene",
           "id": "550842",
-          "totalSRA": 7,
+          "totalSRA": 6,
           "weekly": {
             "1": 0,
             "2": 0,
-            "3": 2,
+            "3": 1,
             "4": 0,
             "5": 1,
             "6": 1,
@@ -1018,7 +1018,7 @@
           }
         }
       ],
-      "seasonTotal": 35
+      "seasonTotal": 34
     },
     {
       "name": "KiloWatt Kartel",
