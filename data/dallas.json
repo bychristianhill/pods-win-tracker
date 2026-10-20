@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T05:13:33.749Z",
+  "generatedAt": "2026-10-20T06:13:33.398Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -745,11 +745,11 @@
         {
           "name": "Bronson Young",
           "id": "406763",
-          "totalSRA": 5,
+          "totalSRA": 4,
           "weekly": {
             "1": 0,
             "2": 1,
-            "3": 2,
+            "3": 1,
             "4": 0,
             "5": 1,
             "6": 0,
@@ -898,7 +898,7 @@
       "weekly": {
         "1": 0,
         "2": 0,
-        "3": 3,
+        "3": 2,
         "4": 2,
         "5": 2,
         "6": 3,
@@ -915,11 +915,11 @@
         {
           "name": "Michael Sarhene",
           "id": "550842",
-          "totalSRA": 6,
+          "totalSRA": 5,
           "weekly": {
             "1": 0,
             "2": 0,
-            "3": 1,
+            "3": 0,
             "4": 0,
             "5": 1,
             "6": 1,
@@ -1018,7 +1018,7 @@
           }
         }
       ],
-      "seasonTotal": 34
+      "seasonTotal": 33
     },
     {
       "name": "KiloWatt Kartel",
