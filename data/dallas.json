@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T23:13:33.098Z",
+  "generatedAt": "2026-10-21T00:13:35.278Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -600,7 +600,7 @@
       "weekly": {
         "1": 0,
         "2": 0,
-        "3": 6,
+        "3": 7,
         "4": 12,
         "5": 2,
         "6": 3,
@@ -638,11 +638,11 @@
         {
           "name": "Chris Wootton",
           "id": "561133",
-          "totalSRA": 21,
+          "totalSRA": 22,
           "weekly": {
             "1": 0,
             "2": 0,
-            "3": 2,
+            "3": 3,
             "4": 1,
             "5": 2,
             "6": 2,
@@ -699,7 +699,7 @@
           }
         }
       ],
-      "seasonTotal": 72
+      "seasonTotal": 73
     },
     {
       "name": "Helios",
@@ -1536,7 +1536,7 @@
       "weekly": {
         "1": 7,
         "2": 0,
-        "3": 3,
+        "3": 2,
         "4": 2,
         "5": 0,
         "6": 2,
@@ -1553,11 +1553,11 @@
         {
           "name": "Stephen Scott",
           "id": "564554",
-          "totalSRA": 13,
+          "totalSRA": 12,
           "weekly": {
             "1": 0,
             "2": 0,
-            "3": 3,
+            "3": 2,
             "4": 2,
             "5": 0,
             "6": 0,
@@ -1677,7 +1677,7 @@
           }
         }
       ],
-      "seasonTotal": 27
+      "seasonTotal": 26
     },
     {
       "name": "Blackout",
