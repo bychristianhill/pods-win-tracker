@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T23:13:33.155Z",
+  "generatedAt": "2026-10-22T00:13:34.285Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -283,7 +283,7 @@
       "weekly": {
         "1": 0,
         "2": 0,
-        "3": 6,
+        "3": 5,
         "4": 12,
         "5": 8,
         "6": 7,
@@ -321,11 +321,11 @@
         {
           "name": "Alex Hepworth",
           "id": "566245",
-          "totalSRA": 9,
+          "totalSRA": 8,
           "weekly": {
             "1": 0,
             "2": 0,
-            "3": 2,
+            "3": 1,
             "4": 2,
             "5": 1,
             "6": 0,
@@ -571,7 +571,7 @@
           }
         }
       ],
-      "seasonTotal": 119
+      "seasonTotal": 118
     },
     {
       "name": "Market Leaders",
@@ -600,7 +600,7 @@
       "weekly": {
         "1": 0,
         "2": 0,
-        "3": 6,
+        "3": 4,
         "4": 12,
         "5": 2,
         "6": 3,
@@ -638,11 +638,11 @@
         {
           "name": "Chris Wootton",
           "id": "561133",
-          "totalSRA": 21,
+          "totalSRA": 20,
           "weekly": {
             "1": 0,
             "2": 0,
-            "3": 2,
+            "3": 1,
             "4": 1,
             "5": 2,
             "6": 2,
@@ -680,11 +680,11 @@
         {
           "name": "KeShawn Ledet",
           "id": "215327",
-          "totalSRA": 18,
+          "totalSRA": 17,
           "weekly": {
             "1": 0,
             "2": 0,
-            "3": 2,
+            "3": 1,
             "4": 6,
             "5": 0,
             "6": 0,
@@ -699,7 +699,7 @@
           }
         }
       ],
-      "seasonTotal": 72
+      "seasonTotal": 70
     },
     {
       "name": "Helios",
@@ -745,11 +745,11 @@
         {
           "name": "Bronson Young",
           "id": "406763",
-          "totalSRA": 4,
+          "totalSRA": 3,
           "weekly": {
             "1": 0,
             "2": 1,
-            "3": 1,
+            "3": 0,
             "4": 0,
             "5": 1,
             "6": 0,
