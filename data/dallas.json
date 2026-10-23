@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T23:13:32.330Z",
+  "generatedAt": "2026-10-23T00:13:33.650Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -172,11 +172,11 @@
         {
           "name": "Marcos Cano Fernandez",
           "id": "212374",
-          "totalSRA": 10,
+          "totalSRA": 11,
           "weekly": {
             "1": 0,
             "2": 0,
-            "3": 0,
+            "3": 1,
             "4": 0,
             "5": 1,
             "6": 0,
@@ -787,11 +787,11 @@
         {
           "name": "Gavin Young",
           "id": "570507",
-          "totalSRA": 15,
+          "totalSRA": 16,
           "weekly": {
             "1": 0,
             "2": 0,
-            "3": 0,
+            "3": 1,
             "4": 1,
             "5": 3,
             "6": 2,
@@ -898,7 +898,7 @@
       "weekly": {
         "1": 0,
         "2": 0,
-        "3": 2,
+        "3": 1,
         "4": 2,
         "5": 2,
         "6": 3,
@@ -999,11 +999,11 @@
         {
           "name": "Lena Burghardt",
           "id": "582289",
-          "totalSRA": 22,
+          "totalSRA": 21,
           "weekly": {
             "1": 0,
             "2": 0,
-            "3": 2,
+            "3": 1,
             "4": 2,
             "5": 1,
             "6": 1,
@@ -1018,7 +1018,7 @@
           }
         }
       ],
-      "seasonTotal": 33
+      "seasonTotal": 32
     },
     {
       "name": "KiloWatt Kartel",
@@ -1536,7 +1536,7 @@
       "weekly": {
         "1": 7,
         "2": 0,
-        "3": 2,
+        "3": 1,
         "4": 2,
         "5": 0,
         "6": 2,
@@ -1553,11 +1553,11 @@
         {
           "name": "Stephen Scott",
           "id": "564554",
-          "totalSRA": 12,
+          "totalSRA": 11,
           "weekly": {
             "1": 0,
             "2": 0,
-            "3": 2,
+            "3": 1,
             "4": 2,
             "5": 0,
             "6": 0,
@@ -1677,7 +1677,7 @@
           }
         }
       ],
-      "seasonTotal": 26
+      "seasonTotal": 25
     },
     {
       "name": "Blackout",
