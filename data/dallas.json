@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T17:13:32.074Z",
+  "generatedAt": "2026-10-27T18:13:33.305Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1537,7 +1537,7 @@
         "1": 7,
         "2": 0,
         "3": 0,
-        "4": 2,
+        "4": 1,
         "5": 0,
         "6": 2,
         "7": 5,
@@ -1553,12 +1553,12 @@
         {
           "name": "Stephen Scott",
           "id": "564554",
-          "totalSRA": 10,
+          "totalSRA": 9,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
-            "4": 2,
+            "4": 1,
             "5": 0,
             "6": 0,
             "7": 4,
@@ -1677,7 +1677,7 @@
           }
         }
       ],
-      "seasonTotal": 24
+      "seasonTotal": 23
     },
     {
       "name": "Blackout",
