@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T11:13:33.027Z",
+  "generatedAt": "2026-10-28T12:13:33.326Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -300,12 +300,12 @@
         {
           "name": "Tyler Lange",
           "id": "564554",
-          "totalSRA": 12,
+          "totalSRA": 11,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
-            "4": 1,
+            "4": 0,
             "5": 1,
             "6": 1,
             "7": 2,
@@ -405,12 +405,12 @@
         {
           "name": "Jeremy Chaffee",
           "id": null,
-          "totalSRA": 7,
+          "totalSRA": 8,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
-            "4": 3,
+            "4": 4,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -1537,7 +1537,7 @@
         "1": 7,
         "2": 0,
         "3": 0,
-        "4": 1,
+        "4": 2,
         "5": 0,
         "6": 2,
         "7": 5,
@@ -1553,12 +1553,12 @@
         {
           "name": "Stephen Scott",
           "id": "564554",
-          "totalSRA": 9,
+          "totalSRA": 10,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
-            "4": 1,
+            "4": 2,
             "5": 0,
             "6": 0,
             "7": 4,
@@ -1677,7 +1677,7 @@
           }
         }
       ],
-      "seasonTotal": 23
+      "seasonTotal": 24
     },
     {
       "name": "Blackout",
