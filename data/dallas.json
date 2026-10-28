@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T17:13:32.957Z",
+  "generatedAt": "2026-10-28T18:13:33.867Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -284,7 +284,7 @@
         "1": 0,
         "2": 0,
         "3": 1,
-        "4": 11,
+        "4": 10,
         "5": 8,
         "6": 7,
         "7": 9,
@@ -405,12 +405,12 @@
         {
           "name": "Jeremy Chaffee",
           "id": null,
-          "totalSRA": 8,
+          "totalSRA": 7,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
-            "4": 4,
+            "4": 3,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -571,7 +571,7 @@
           }
         }
       ],
-      "seasonTotal": 113
+      "seasonTotal": 112
     },
     {
       "name": "Market Leaders",
@@ -1537,7 +1537,7 @@
         "1": 7,
         "2": 0,
         "3": 0,
-        "4": 2,
+        "4": 1,
         "5": 0,
         "6": 2,
         "7": 5,
@@ -1553,12 +1553,12 @@
         {
           "name": "Stephen Scott",
           "id": "564554",
-          "totalSRA": 10,
+          "totalSRA": 9,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
-            "4": 2,
+            "4": 1,
             "5": 0,
             "6": 0,
             "7": 4,
@@ -1677,7 +1677,7 @@
           }
         }
       ],
-      "seasonTotal": 24
+      "seasonTotal": 23
     },
     {
       "name": "Blackout",
