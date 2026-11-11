@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T11:13:33.365Z",
+  "generatedAt": "2026-11-11T12:13:33.588Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -787,13 +787,13 @@
         {
           "name": "Gavin Young",
           "id": "570507",
-          "totalSRA": 12,
+          "totalSRA": 14,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 3,
             "6": 2,
             "7": 0,
             "8": 3,
@@ -808,13 +808,13 @@
         {
           "name": "Kalin Reeves",
           "id": "561311",
-          "totalSRA": 16,
+          "totalSRA": 15,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 2,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 1,
             "7": 3,
             "8": 3,
@@ -850,13 +850,13 @@
         {
           "name": "Jeremy Ibarra",
           "id": "566409",
-          "totalSRA": 11,
+          "totalSRA": 10,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 3,
             "7": 1,
             "8": 1,
