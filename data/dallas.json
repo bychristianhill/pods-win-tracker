@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T11:13:33.011Z",
+  "generatedAt": "2026-11-15T12:13:33.564Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -285,7 +285,7 @@
         "2": 0,
         "3": 1,
         "4": 0,
-        "5": 1,
+        "5": 0,
         "6": 7,
         "7": 9,
         "8": 18,
@@ -342,13 +342,13 @@
         {
           "name": "Carter Glass",
           "id": "565713",
-          "totalSRA": 9,
+          "totalSRA": 8,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 1,
             "7": 1,
             "8": 4,
@@ -571,7 +571,7 @@
           }
         }
       ],
-      "seasonTotal": 95
+      "seasonTotal": 94
     },
     {
       "name": "Market Leaders",
