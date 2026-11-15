@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T05:13:33.043Z",
+  "generatedAt": "2026-11-15T06:13:32.392Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -285,7 +285,7 @@
         "2": 0,
         "3": 1,
         "4": 0,
-        "5": 2,
+        "5": 1,
         "6": 7,
         "7": 9,
         "8": 18,
@@ -342,13 +342,13 @@
         {
           "name": "Carter Glass",
           "id": "565713",
-          "totalSRA": 8,
+          "totalSRA": 9,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 0,
+            "5": 1,
             "6": 1,
             "7": 1,
             "8": 4,
@@ -468,13 +468,13 @@
         {
           "name": "Dan Glass",
           "id": null,
-          "totalSRA": 11,
+          "totalSRA": 10,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 1,
             "7": 0,
             "8": 0,
@@ -489,13 +489,13 @@
         {
           "name": "Shiloh Howard",
           "id": null,
-          "totalSRA": 11,
+          "totalSRA": 10,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 1,
             "7": 1,
             "8": 1,
@@ -571,7 +571,7 @@
           }
         }
       ],
-      "seasonTotal": 96
+      "seasonTotal": 95
     },
     {
       "name": "Market Leaders",
